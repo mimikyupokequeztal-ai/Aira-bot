@@ -1,0 +1,14 @@
+{
+    "version": "0.7.94",
+    "channel_id": null,
+    "maintenance": {
+        "enabled": false,
+        "scheduled": false,
+        "date": null,
+        "time": null,
+        "reason": null,
+        "services": []
+    },
+    "offline_commands": [],
+    "maintenance_commands": []
+}

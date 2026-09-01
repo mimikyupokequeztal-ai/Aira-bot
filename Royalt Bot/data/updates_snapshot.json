@@ -441,6 +441,161 @@
       }
     }
   },
+  "bot_status.py": {
+    "hash": "972850629a9f501cfacd025c7092efd508b8bea30f7f5bf9529bf17353c88fc5",
+    "analise": {
+      "comandos": {
+        "status_command": {
+          "nome": "status",
+          "descricao": "",
+          "aliases": [],
+          "funcao": "status_command",
+          "linha": 1292,
+          "decorador": "commands.command"
+        },
+        "status_admin_command": {
+          "nome": "status-admin",
+          "descricao": "",
+          "aliases": [],
+          "funcao": "status_admin_command",
+          "linha": 1310,
+          "decorador": "commands.command"
+        }
+      },
+      "funcoes": {
+        "load_status": {
+          "linha": 52,
+          "fim": 92
+        },
+        "save_status": {
+          "linha": 95,
+          "fim": 116
+        },
+        "format_list": {
+          "linha": 123,
+          "fim": 132
+        },
+        "format_uptime": {
+          "linha": 135,
+          "fim": 158
+        },
+        "setup": {
+          "linha": 1346,
+          "fim": 1350
+        },
+        "__init__": {
+          "linha": 734,
+          "fim": 746
+        },
+        "on_submit": {
+          "linha": 379,
+          "fim": 412
+        },
+        "callback": {
+          "linha": 436,
+          "fim": 459
+        },
+        "maintenance": {
+          "linha": 503,
+          "fim": 520
+        },
+        "cancel": {
+          "linha": 532,
+          "fim": 567
+        },
+        "version": {
+          "linha": 579,
+          "fim": 596
+        },
+        "offline": {
+          "linha": 608,
+          "fim": 628
+        },
+        "maintenance_commands": {
+          "linha": 640,
+          "fim": 660
+        },
+        "channel": {
+          "linha": 672,
+          "fim": 693
+        },
+        "refresh": {
+          "linha": 705,
+          "fim": 725
+        },
+        "save": {
+          "linha": 752,
+          "fim": 756
+        },
+        "get_channel": {
+          "linha": 762,
+          "fim": 774
+        },
+        "create_status_embed": {
+          "linha": 780,
+          "fim": 994
+        },
+        "create_admin_embed": {
+          "linha": 1000,
+          "fim": 1088
+        },
+        "send_maintenance_notice": {
+          "linha": 1094,
+          "fim": 1222
+        },
+        "maintenance_checker": {
+          "linha": 1229,
+          "fim": 1278
+        },
+        "before_maintenance_checker": {
+          "linha": 1281,
+          "fim": 1283
+        },
+        "status_command": {
+          "linha": 1292,
+          "fim": 1301
+        },
+        "status_admin_command": {
+          "linha": 1310,
+          "fim": 1331
+        },
+        "cog_unload": {
+          "linha": 1337,
+          "fim": 1339
+        }
+      },
+      "classes": {
+        "VersionModal": {
+          "linha": 165,
+          "fim": 208
+        },
+        "MaintenanceModal": {
+          "linha": 215,
+          "fim": 333
+        },
+        "CommandsModal": {
+          "linha": 340,
+          "fim": 412
+        },
+        "StatusChannelSelect": {
+          "linha": 419,
+          "fim": 459
+        },
+        "ChannelSelectView": {
+          "linha": 462,
+          "fim": 474
+        },
+        "StatusAdminView": {
+          "linha": 481,
+          "fim": 725
+        },
+        "BotStatus": {
+          "linha": 732,
+          "fim": 1339
+        }
+      }
+    }
+  },
   "desabafos.py": {
     "hash": "4f9b159ebe310382b56cb5ebd049c0013aa8c99fb1e55932996b5d0ff182b209",
     "analise": {

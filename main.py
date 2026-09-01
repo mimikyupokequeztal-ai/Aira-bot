@@ -94,7 +94,7 @@ class Royalt(commands.Bot):
             "cogs.economia",
             "cogs.pokemon",
             "cogs.update_logger",
-
+            "cogs.bot_status",
             # ------------------------------------------------
             # ADMIN
             # ------------------------------------------------
