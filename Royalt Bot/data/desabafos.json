@@ -1,0 +1,125 @@
+{
+    "0001": {
+        "id": "0001",
+        "guild": 1527325770337353932,
+        "canal": 1543455941398110229,
+        "autor": 1527022875444379751,
+        "responsavel": null,
+        "status": "fechado",
+        "criado_em": "2026-08-30T03:03:00.778059+00:00",
+        "assumido_em": null,
+        "atendido_em": null,
+        "arquivado_em": null,
+        "fechado_em": "2026-08-30T03:35:31.253234+00:00",
+        "fechado": true,
+        "banner": ""
+    },
+    "0002": {
+        "id": "0002",
+        "guild": 1527325770337353932,
+        "canal": 1543459730817818774,
+        "autor": 1525734795152326759,
+        "responsavel": null,
+        "status": "fechado",
+        "criado_em": "2026-08-30T03:18:04.167912+00:00",
+        "assumido_em": null,
+        "atendido_em": null,
+        "arquivado_em": null,
+        "fechado_em": "2026-08-30T03:19:41.985366+00:00",
+        "fechado": true,
+        "banner": ""
+    },
+    "0003": {
+        "id": "0003",
+        "guild": 1527325770337353932,
+        "canal": 1543461802325577768,
+        "autor": 1525734795152326759,
+        "responsavel": null,
+        "status": "fechado",
+        "criado_em": "2026-08-30T03:26:18.140814+00:00",
+        "assumido_em": null,
+        "atendido_em": null,
+        "arquivado_em": null,
+        "fechado_em": "2026-08-30T03:28:35.339277+00:00",
+        "fechado": true,
+        "banner": ""
+    },
+    "0004": {
+        "id": "0004",
+        "guild": 1527325770337353932,
+        "canal": 1543464475389198430,
+        "autor": 1527022875444379751,
+        "participantes": [
+            1527022875444379751
+        ],
+        "responsavel": 1527022875444379751,
+        "modo": "anonimo",
+        "status": "fechado",
+        "criado_em": "2026-08-30T03:36:55.646100+00:00",
+        "assumido_em": "2026-08-30T03:37:15.994709+00:00",
+        "atendido_em": "2026-08-30T03:37:20.761400+00:00",
+        "arquivado_em": null,
+        "fechado_em": "2026-08-30T03:37:28.640632+00:00",
+        "fechado": true,
+        "banner": ""
+    },
+    "0005": {
+        "id": "0005",
+        "guild": 1527325770337353932,
+        "canal": 1543464695761993800,
+        "autor": 1527022875444379751,
+        "participantes": [
+            1527022875444379751,
+            1525734795152326759
+        ],
+        "responsavel": null,
+        "modo": "privado",
+        "status": "fechado",
+        "criado_em": "2026-08-30T03:37:48.037181+00:00",
+        "assumido_em": null,
+        "atendido_em": null,
+        "arquivado_em": null,
+        "fechado_em": "2026-08-30T03:38:24.780322+00:00",
+        "fechado": true,
+        "banner": ""
+    },
+    "0006": {
+        "id": "0006",
+        "guild": 1527325770337353932,
+        "canal": 1543464906303606887,
+        "autor": 1527022875444379751,
+        "participantes": [
+            1527022875444379751
+        ],
+        "responsavel": null,
+        "modo": "anonimo",
+        "status": "fechado",
+        "criado_em": "2026-08-30T03:38:38.311209+00:00",
+        "assumido_em": null,
+        "atendido_em": null,
+        "arquivado_em": null,
+        "fechado_em": "2026-08-30T03:38:48.089486+00:00",
+        "fechado": true,
+        "banner": ""
+    },
+    "0007": {
+        "id": "0007",
+        "guild": 1527325770337353932,
+        "canal": 1543465802278248468,
+        "autor": 1527022875444379751,
+        "participantes": [
+            1527022875444379751
+        ],
+        "responsavel": null,
+        "modo": "anonimo",
+        "status": "fechado",
+        "transcricao": false,
+        "criado_em": "2026-08-30T03:42:11.813790+00:00",
+        "assumido_em": null,
+        "atendido_em": null,
+        "arquivado_em": null,
+        "fechado_em": "2026-08-30T03:42:22.506287+00:00",
+        "fechado": true,
+        "banner": ""
+    }
+}

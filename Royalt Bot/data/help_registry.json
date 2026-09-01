@@ -1,0 +1,125 @@
+{
+    "versao": "3.2",
+    "ultima_verificacao": "2026-08-31T20:25:46.041672+00:00",
+    "comandos": {
+        "warns": {
+            "nome": "warns",
+            "descricao": "Mostra os avisos de um usuário.",
+            "assinatura": "<membro>",
+            "aliases": [],
+            "categoria": "moderacao"
+        },
+        "timeout": {
+            "nome": "timeout",
+            "descricao": "Coloca um usuário em timeout/mute.",
+            "assinatura": "<membro> <minutos> [motivo=Nenhum motivo informado]",
+            "aliases": [],
+            "categoria": "moderacao"
+        },
+        "ban": {
+            "nome": "ban",
+            "descricao": "Bane um usuário do servidor.",
+            "assinatura": "<membro> [motivo=Nenhum motivo informado]",
+            "aliases": [],
+            "categoria": "moderacao"
+        },
+        "help": {
+            "nome": "help",
+            "descricao": "Sem descrição disponível.",
+            "assinatura": "[command]",
+            "aliases": [],
+            "categoria": "outros"
+        },
+        "lock": {
+            "nome": "lock",
+            "descricao": "Bloqueia o canal para membros.",
+            "assinatura": "",
+            "aliases": [],
+            "categoria": "moderacao"
+        },
+        "warn": {
+            "nome": "warn",
+            "descricao": "Adverte um usuário.",
+            "assinatura": "<membro> [motivo=Nenhum motivo informado]",
+            "aliases": [],
+            "categoria": "moderacao"
+        },
+        "setlogs": {
+            "nome": "setlogs",
+            "descricao": "Define o canal onde os logs serão enviados.",
+            "assinatura": "<canal>",
+            "aliases": [],
+            "categoria": "outros"
+        },
+        "logs": {
+            "nome": "logs",
+            "descricao": "Abre o painel de configuração dos logs.",
+            "assinatura": "",
+            "aliases": [],
+            "categoria": "outros"
+        },
+        "kick": {
+            "nome": "kick",
+            "descricao": "Expulsa um usuário do servidor.",
+            "assinatura": "<membro> [motivo=Nenhum motivo informado]",
+            "aliases": [],
+            "categoria": "moderacao"
+        },
+        "slowmode": {
+            "nome": "slowmode",
+            "descricao": "Define o slowmode do canal.",
+            "assinatura": "<segundos>",
+            "aliases": [],
+            "categoria": "moderacao"
+        },
+        "antiraid_reset": {
+            "nome": "antiraid_reset",
+            "descricao": "Sem descrição disponível.",
+            "assinatura": "",
+            "aliases": [],
+            "categoria": "seguranca"
+        },
+        "testlog": {
+            "nome": "testlog",
+            "descricao": "Testa o sistema de logs.",
+            "assinatura": "",
+            "aliases": [],
+            "categoria": "utilidades"
+        },
+        "clear": {
+            "nome": "clear",
+            "descricao": "Apaga mensagens do canal.",
+            "assinatura": "<quantidade>",
+            "aliases": [],
+            "categoria": "moderacao"
+        },
+        "antiraid": {
+            "nome": "antiraid",
+            "descricao": "Sem descrição disponível.",
+            "assinatura": "",
+            "aliases": [],
+            "categoria": "seguranca"
+        },
+        "unmute": {
+            "nome": "unmute",
+            "descricao": "Remove o timeout de um usuário.",
+            "assinatura": "<membro> [motivo=Nenhum motivo informado]",
+            "aliases": [],
+            "categoria": "moderacao"
+        },
+        "unban": {
+            "nome": "unban",
+            "descricao": "Remove o banimento de um usuário.",
+            "assinatura": "<usuario> [motivo=Nenhum motivo informado]",
+            "aliases": [],
+            "categoria": "moderacao"
+        },
+        "unlock": {
+            "nome": "unlock",
+            "descricao": "Desbloqueia o canal.",
+            "assinatura": "",
+            "aliases": [],
+            "categoria": "moderacao"
+        }
+    }
+}

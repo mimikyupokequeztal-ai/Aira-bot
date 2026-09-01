@@ -1,0 +1,71 @@
+{
+    "ships": {
+        "1525734795152326759:1527022875444379751": {
+            "id1": 1525734795152326759,
+            "id2": 1527022875444379751,
+            "porcentagem": 73,
+            "nome_ship": "angv",
+            "vezes": 5,
+            "criado_em": "2026-08-30T03:54:16.161315+00:00",
+            "ultima_consulta": "2026-08-30T09:17:59.424361+00:00",
+            "porcentagem_anterior": 57,
+            "maior_porcentagem": 73,
+            "recalculado": 1
+        },
+        "1206650374274945024:1527022875444379751": {
+            "id1": 1206650374274945024,
+            "id2": 1527022875444379751,
+            "porcentagem": 61,
+            "nome_ship": "llov",
+            "vezes": 4,
+            "criado_em": "2026-08-30T03:55:11.515791+00:00",
+            "ultima_consulta": "2026-08-31T16:23:13.083527+00:00"
+        }
+    },
+    "usuarios": {
+        "1525734795152326759": {
+            "ships_realizados": 1,
+            "ships_altos": 0,
+            "maior_compatibilidade": 73,
+            "duplas_diferentes": 0,
+            "ships_100": 0,
+            "pontos_conquistas": 5,
+            "conquistas": [
+                "primeiro_ship"
+            ],
+            "duplas": []
+        },
+        "1527022875444379751": {
+            "ships_realizados": 2,
+            "ships_altos": 0,
+            "maior_compatibilidade": 73,
+            "duplas_diferentes": 0,
+            "ships_100": 0,
+            "pontos_conquistas": 5,
+            "conquistas": [
+                "primeiro_ship"
+            ],
+            "duplas": []
+        },
+        "1206650374274945024": {
+            "ships_realizados": 1,
+            "ships_altos": 0,
+            "maior_compatibilidade": 61
+        }
+    },
+    "estatisticas": {
+        "total_ships": 2,
+        "ships_100": 0,
+        "maior_ship": 73,
+        "dupla_maior_ship": [
+            1527022875444379751,
+            1525734795152326759
+        ],
+        "ultimo_ship": {
+            "id1": 1527022875444379751,
+            "id2": 1525734795152326759,
+            "porcentagem": 73,
+            "data": "2026-08-30T09:17:59.424361+00:00"
+        }
+    }
+}

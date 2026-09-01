@@ -1,0 +1,3746 @@
+{
+  "admin.py": {
+    "hash": "df4fdcbd7ba7190c254d456c757540ceafb0516329cea02be99bd7678b7efb89",
+    "analise": {
+      "comandos": {
+        "admin": {
+          "nome": "admin",
+          "descricao": "",
+          "aliases": [],
+          "funcao": "admin",
+          "linha": 726,
+          "decorador": "commands.command"
+        }
+      },
+      "funcoes": {
+        "embed_base": {
+          "linha": 76,
+          "fim": 92
+        },
+        "setup": {
+          "linha": 1854,
+          "fim": 1864
+        },
+        "__init__": {
+          "linha": 1802,
+          "fim": 1811
+        },
+        "carregar_config": {
+          "linha": 119,
+          "fim": 169
+        },
+        "salvar_config": {
+          "linha": 176,
+          "fim": 204
+        },
+        "config_guild": {
+          "linha": 211,
+          "fim": 236
+        },
+        "config_sistema": {
+          "linha": 243,
+          "fim": 273
+        },
+        "eh_owner_aira": {
+          "linha": 280,
+          "fim": 302
+        },
+        "eh_dono_servidor": {
+          "linha": 309,
+          "fim": 321
+        },
+        "usuario_autorizado": {
+          "linha": 328,
+          "fim": 351
+        },
+        "membro_autorizado": {
+          "linha": 358,
+          "fim": 379
+        },
+        "nome_sistema": {
+          "linha": 386,
+          "fim": 440
+        },
+        "criar_embed_principal": {
+          "linha": 447,
+          "fim": 504
+        },
+        "criar_embed_sistema": {
+          "linha": 511,
+          "fim": 682
+        },
+        "criar_embed_ajuda": {
+          "linha": 689,
+          "fim": 716
+        },
+        "admin": {
+          "linha": 726,
+          "fim": 751
+        },
+        "ajuda": {
+          "linha": 790,
+          "fim": 812
+        },
+        "fechar": {
+          "linha": 825,
+          "fim": 850
+        },
+        "callback": {
+          "linha": 1734,
+          "fim": 1791
+        },
+        "configurar_canal": {
+          "linha": 1000,
+          "fim": 1030
+        },
+        "cargos": {
+          "linha": 1043,
+          "fim": 1073
+        },
+        "membros": {
+          "linha": 1086,
+          "fim": 1116
+        },
+        "ver_config": {
+          "linha": 1129,
+          "fim": 1152
+        },
+        "voltar": {
+          "linha": 1823,
+          "fim": 1847
+        },
+        "limpar": {
+          "linha": 1628,
+          "fim": 1667
+        }
+      },
+      "classes": {
+        "Admin": {
+          "linha": 99,
+          "fim": 751
+        },
+        "AdminPrincipalView": {
+          "linha": 758,
+          "fim": 850
+        },
+        "AdminSistemaSelect": {
+          "linha": 857,
+          "fim": 965
+        },
+        "AdminSistemaView": {
+          "linha": 972,
+          "fim": 1189
+        },
+        "AdminCanalView": {
+          "linha": 1196,
+          "fim": 1315
+        },
+        "AdminCanalSelect": {
+          "linha": 1322,
+          "fim": 1388
+        },
+        "AdminCargosView": {
+          "linha": 1395,
+          "fim": 1508
+        },
+        "AdminCargoSelect": {
+          "linha": 1515,
+          "fim": 1586
+        },
+        "AdminMembrosView": {
+          "linha": 1593,
+          "fim": 1706
+        },
+        "AdminMembroSelect": {
+          "linha": 1713,
+          "fim": 1791
+        },
+        "AdminAjudaView": {
+          "linha": 1798,
+          "fim": 1847
+        }
+      }
+    }
+  },
+  "antiraid.py": {
+    "hash": "407feaf3c558f76cc9856419589350259f22e130eff8ee8ff42bef9a2dd10f3c",
+    "analise": {
+      "comandos": {
+        "antiraid": {
+          "nome": "antiraid",
+          "descricao": "",
+          "aliases": [],
+          "funcao": "antiraid",
+          "linha": 1246,
+          "decorador": "commands.command"
+        },
+        "antiraid_canal": {
+          "nome": "antiraid_canal",
+          "descricao": "",
+          "aliases": [],
+          "funcao": "antiraid_canal",
+          "linha": 1261,
+          "decorador": "commands.command"
+        },
+        "antiraid_cargo": {
+          "nome": "antiraid_cargo",
+          "descricao": "",
+          "aliases": [],
+          "funcao": "antiraid_cargo",
+          "linha": 1275,
+          "decorador": "commands.command"
+        },
+        "antiraid_membro": {
+          "nome": "antiraid_membro",
+          "descricao": "",
+          "aliases": [],
+          "funcao": "antiraid_membro",
+          "linha": 1295,
+          "decorador": "commands.command"
+        },
+        "antiraid_reset": {
+          "nome": "antiraid_reset",
+          "descricao": "",
+          "aliases": [],
+          "funcao": "antiraid_reset",
+          "linha": 1315,
+          "decorador": "commands.command"
+        }
+      },
+      "funcoes": {
+        "agora_utc": {
+          "linha": 71,
+          "fim": 72
+        },
+        "embed_base": {
+          "linha": 75,
+          "fim": 87
+        },
+        "setup": {
+          "linha": 1361,
+          "fim": 1371
+        },
+        "__init__": {
+          "linha": 333,
+          "fim": 354
+        },
+        "nivel_1": {
+          "linha": 107,
+          "fim": 108
+        },
+        "nivel_2": {
+          "linha": 117,
+          "fim": 118
+        },
+        "nivel_3": {
+          "linha": 127,
+          "fim": 128
+        },
+        "desativar": {
+          "linha": 819,
+          "fim": 856
+        },
+        "configuracoes": {
+          "linha": 147,
+          "fim": 158
+        },
+        "reset": {
+          "linha": 167,
+          "fim": 168
+        },
+        "fechar": {
+          "linha": 177,
+          "fim": 191
+        },
+        "canal": {
+          "linha": 211,
+          "fim": 224
+        },
+        "cargos": {
+          "linha": 233,
+          "fim": 246
+        },
+        "membros": {
+          "linha": 255,
+          "fim": 268
+        },
+        "toggle_bots": {
+          "linha": 277,
+          "fim": 280
+        },
+        "toggle_joins": {
+          "linha": 289,
+          "fim": 292
+        },
+        "toggle_actions": {
+          "linha": 301,
+          "fim": 304
+        },
+        "voltar": {
+          "linha": 313,
+          "fim": 324
+        },
+        "cog_unload": {
+          "linha": 360,
+          "fim": 361
+        },
+        "carregar_config": {
+          "linha": 367,
+          "fim": 386
+        },
+        "salvar_config": {
+          "linha": 388,
+          "fim": 404
+        },
+        "config_guild": {
+          "linha": 406,
+          "fim": 420
+        },
+        "carregar_servidores": {
+          "linha": 422,
+          "fim": 439
+        },
+        "eh_owner_aira": {
+          "linha": 445,
+          "fim": 452
+        },
+        "eh_dono_servidor": {
+          "linha": 454,
+          "fim": 458
+        },
+        "usuario_autorizado": {
+          "linha": 460,
+          "fim": 478
+        },
+        "ctx_autorizado": {
+          "linha": 480,
+          "fim": 498
+        },
+        "calcular_nivel": {
+          "linha": 504,
+          "fim": 511
+        },
+        "nome_nivel": {
+          "linha": 513,
+          "fim": 519
+        },
+        "emoji_nivel": {
+          "linha": 521,
+          "fim": 527
+        },
+        "nome_protecao": {
+          "linha": 529,
+          "fim": 535
+        },
+        "explicacao_nivel": {
+          "linha": 537,
+          "fim": 561
+        },
+        "criar_embed_alerta": {
+          "linha": 567,
+          "fim": 593
+        },
+        "criar_painel": {
+          "linha": 595,
+          "fim": 672
+        },
+        "criar_embed_config": {
+          "linha": 674,
+          "fim": 731
+        },
+        "enviar_log": {
+          "linha": 737,
+          "fim": 773
+        },
+        "ativar_nivel": {
+          "linha": 779,
+          "fim": 817
+        },
+        "resetar_risco": {
+          "linha": 858,
+          "fim": 890
+        },
+        "alternar_config": {
+          "linha": 892,
+          "fim": 925
+        },
+        "adicionar_risco": {
+          "linha": 931,
+          "fim": 956
+        },
+        "reduzir_risco": {
+          "linha": 959,
+          "fim": 999
+        },
+        "antes_reduzir_risco": {
+          "linha": 1002,
+          "fim": 1003
+        },
+        "bot_suspeito": {
+          "linha": 1009,
+          "fim": 1034
+        },
+        "expulsar_bot": {
+          "linha": 1036,
+          "fim": 1074
+        },
+        "on_member_join": {
+          "linha": 1081,
+          "fim": 1164
+        },
+        "on_member_update": {
+          "linha": 1171,
+          "fim": 1239
+        },
+        "antiraid": {
+          "linha": 1246,
+          "fim": 1254
+        },
+        "antiraid_canal": {
+          "linha": 1261,
+          "fim": 1272
+        },
+        "antiraid_cargo": {
+          "linha": 1275,
+          "fim": 1292
+        },
+        "antiraid_membro": {
+          "linha": 1295,
+          "fim": 1312
+        },
+        "antiraid_reset": {
+          "linha": 1315,
+          "fim": 1335
+        },
+        "antiraid_canal_error": {
+          "linha": 1342,
+          "fim": 1344
+        },
+        "antiraid_cargo_error": {
+          "linha": 1347,
+          "fim": 1349
+        },
+        "antiraid_membro_error": {
+          "linha": 1352,
+          "fim": 1354
+        }
+      },
+      "classes": {
+        "AntiRaidView": {
+          "linha": 94,
+          "fim": 191
+        },
+        "AntiRaidConfigView": {
+          "linha": 198,
+          "fim": 324
+        },
+        "AntiRaid": {
+          "linha": 331,
+          "fim": 1354
+        }
+      }
+    }
+  },
+  "desabafos.py": {
+    "hash": "4f9b159ebe310382b56cb5ebd049c0013aa8c99fb1e55932996b5d0ff182b209",
+    "analise": {
+      "comandos": {
+        "desabafos_comando": {
+          "nome": "desabafos",
+          "descricao": "Abre o Espaço de Desabafos do Royalt.",
+          "aliases": [
+            "desabafo"
+          ],
+          "funcao": "desabafos_comando",
+          "linha": 2957,
+          "decorador": "commands.command"
+        },
+        "desabafoanonimo": {
+          "nome": "desabafoanonimo",
+          "descricao": "Abre diretamente um desabafo anônimo.",
+          "aliases": [
+            "anonimodesabafo"
+          ],
+          "funcao": "desabafoanonimo",
+          "linha": 2987,
+          "decorador": "commands.command"
+        }
+      },
+      "funcoes": {
+        "configuracao_padrao": {
+          "linha": 68,
+          "fim": 102
+        },
+        "carregar_json": {
+          "linha": 109,
+          "fim": 142
+        },
+        "salvar_json": {
+          "linha": 145,
+          "fim": 170
+        },
+        "limpar_nome": {
+          "linha": 177,
+          "fim": 201
+        },
+        "setup": {
+          "linha": 3030,
+          "fim": 3038
+        },
+        "__init__": {
+          "linha": 1364,
+          "fim": 1381
+        },
+        "abrir_privado": {
+          "linha": 265,
+          "fim": 292
+        },
+        "abrir_anonimo": {
+          "linha": 298,
+          "fim": 331
+        },
+        "callback": {
+          "linha": 375,
+          "fim": 394
+        },
+        "criar": {
+          "linha": 425,
+          "fim": 442
+        },
+        "cancelar": {
+          "linha": 1341,
+          "fim": 1353
+        },
+        "adicionar_botao": {
+          "linha": 586,
+          "fim": 606
+        },
+        "eh_participante": {
+          "linha": 612,
+          "fim": 629
+        },
+        "verificar_staff": {
+          "linha": 635,
+          "fim": 652
+        },
+        "assumir": {
+          "linha": 658,
+          "fim": 744
+        },
+        "atendido": {
+          "linha": 750,
+          "fim": 820
+        },
+        "alternar_transcricao": {
+          "linha": 826,
+          "fim": 941
+        },
+        "arquivar": {
+          "linha": 947,
+          "fim": 1040
+        },
+        "reabrir": {
+          "linha": 1046,
+          "fim": 1136
+        },
+        "finalizar": {
+          "linha": 1142,
+          "fim": 1221
+        },
+        "confirmar": {
+          "linha": 1257,
+          "fim": 1330
+        },
+        "salvar_desabafos": {
+          "linha": 1387,
+          "fim": 1394
+        },
+        "salvar_config": {
+          "linha": 1400,
+          "fim": 1407
+        },
+        "obter_config": {
+          "linha": 1413,
+          "fim": 1441
+        },
+        "usuario_equipe": {
+          "linha": 1447,
+          "fim": 1476
+        },
+        "obter_canal_logs": {
+          "linha": 1482,
+          "fim": 1512
+        },
+        "enviar_log": {
+          "linha": 1518,
+          "fim": 1565
+        },
+        "criar_embed_painel": {
+          "linha": 1571,
+          "fim": 1635
+        },
+        "criar_embed_desabafo": {
+          "linha": 1641,
+          "fim": 1763
+        },
+        "obter_desabafo_por_canal": {
+          "linha": 1769,
+          "fim": 1785
+        },
+        "obter_aberto_usuario": {
+          "linha": 1791,
+          "fim": 1829
+        },
+        "on_ready": {
+          "linha": 1836,
+          "fim": 1895
+        },
+        "criar_overwrites": {
+          "linha": 1901,
+          "fim": 1948
+        },
+        "criar_desabafo_privado": {
+          "linha": 1954,
+          "fim": 2259
+        },
+        "criar_desabafo_anonimo": {
+          "linha": 2265,
+          "fim": 2596
+        },
+        "atualizar_embed_desabafo": {
+          "linha": 2602,
+          "fim": 2649
+        },
+        "gerar_transcricao": {
+          "linha": 2655,
+          "fim": 2723
+        },
+        "fechar_desabafo": {
+          "linha": 2729,
+          "fim": 2941
+        },
+        "desabafos_comando": {
+          "linha": 2957,
+          "fim": 2971
+        },
+        "desabafoanonimo": {
+          "linha": 2987,
+          "fim": 3023
+        }
+      },
+      "classes": {
+        "PainelDesabafoView": {
+          "linha": 208,
+          "fim": 331
+        },
+        "EscolherPessoaView": {
+          "linha": 338,
+          "fim": 355
+        },
+        "EscolherPessoaSelect": {
+          "linha": 358,
+          "fim": 394
+        },
+        "ConfirmarAnonimoView": {
+          "linha": 401,
+          "fim": 465
+        },
+        "DesabafoView": {
+          "linha": 472,
+          "fim": 1221
+        },
+        "ConfirmarFechamentoView": {
+          "linha": 1228,
+          "fim": 1353
+        },
+        "Desabafos": {
+          "linha": 1360,
+          "fim": 3023
+        }
+      }
+    }
+  },
+  "desabafos_config.py": {
+    "hash": "54d2f047d8facb635c297d7f7995d44297fb3b667c75195639b2b6bc73ad43e1",
+    "analise": {
+      "comandos": {
+        "desabafosconfig": {
+          "nome": "desabafosconfig",
+          "descricao": "Abre a configuração do sistema de desabafos.",
+          "aliases": [
+            "configdesabafos",
+            "desabafoconfig"
+          ],
+          "funcao": "desabafosconfig",
+          "linha": 1701,
+          "decorador": "commands.command"
+        }
+      },
+      "funcoes": {
+        "configuracao_padrao": {
+          "linha": 56,
+          "fim": 115
+        },
+        "carregar_config": {
+          "linha": 122,
+          "fim": 159
+        },
+        "salvar_config": {
+          "linha": 166,
+          "fim": 190
+        },
+        "obter_configuracao": {
+          "linha": 197,
+          "fim": 230
+        },
+        "tratar_erro": {
+          "linha": 1725,
+          "fim": 1760
+        },
+        "setup": {
+          "linha": 1767,
+          "fim": 1775
+        },
+        "__init__": {
+          "linha": 1213,
+          "fim": 1222
+        },
+        "interaction_check": {
+          "linha": 258,
+          "fim": 286
+        },
+        "canal_logs": {
+          "linha": 298,
+          "fim": 324
+        },
+        "categoria": {
+          "linha": 336,
+          "fim": 357
+        },
+        "equipe": {
+          "linha": 369,
+          "fim": 395
+        },
+        "editar_painel": {
+          "linha": 407,
+          "fim": 418
+        },
+        "preview": {
+          "linha": 430,
+          "fim": 502
+        },
+        "transcricao": {
+          "linha": 514,
+          "fim": 588
+        },
+        "publicar": {
+          "linha": 600,
+          "fim": 619
+        },
+        "configuracao": {
+          "linha": 631,
+          "fim": 642
+        },
+        "fechar": {
+          "linha": 654,
+          "fim": 666
+        },
+        "callback": {
+          "linha": 1004,
+          "fim": 1056
+        },
+        "on_submit": {
+          "linha": 1130,
+          "fim": 1202
+        },
+        "salvar": {
+          "linha": 1228,
+          "fim": 1234
+        },
+        "obter_config": {
+          "linha": 1240,
+          "fim": 1252
+        },
+        "obter_canal_logs": {
+          "linha": 1258,
+          "fim": 1286
+        },
+        "registrar_evento_config": {
+          "linha": 1292,
+          "fim": 1343
+        },
+        "criar_embed_config": {
+          "linha": 1349,
+          "fim": 1503
+        },
+        "criar_embed_painel": {
+          "linha": 1509,
+          "fim": 1563
+        },
+        "criar_view_painel": {
+          "linha": 1569,
+          "fim": 1600
+        },
+        "publicar_painel": {
+          "linha": 1606,
+          "fim": 1680
+        },
+        "desabafosconfig": {
+          "linha": 1701,
+          "fim": 1718
+        }
+      },
+      "classes": {
+        "DesabafosConfigView": {
+          "linha": 237,
+          "fim": 666
+        },
+        "SelecionarLogsView": {
+          "linha": 673,
+          "fim": 690
+        },
+        "SelecionarLogs": {
+          "linha": 693,
+          "fim": 765
+        },
+        "SelecionarCategoriaView": {
+          "linha": 772,
+          "fim": 789
+        },
+        "SelecionarCategoria": {
+          "linha": 792,
+          "fim": 863
+        },
+        "SelecionarStaffView": {
+          "linha": 870,
+          "fim": 887
+        },
+        "SelecionarStaff": {
+          "linha": 890,
+          "fim": 957
+        },
+        "SelecionarPublicacaoView": {
+          "linha": 964,
+          "fim": 981
+        },
+        "SelecionarPublicacao": {
+          "linha": 984,
+          "fim": 1056
+        },
+        "EditarPainelModal": {
+          "linha": 1063,
+          "fim": 1202
+        },
+        "DesabafosConfig": {
+          "linha": 1209,
+          "fim": 1718
+        }
+      }
+    }
+  },
+  "desabafos_pesquisa.py": {
+    "hash": "620e55716a01bcb29452f57a2d9d9faaa2d0d5e90e7a0ea54e6642f059724ed5",
+    "analise": {
+      "comandos": {
+        "pesquisar_comando": {
+          "nome": "pesquisar",
+          "descricao": "Pesquisa informações públicas na internet.",
+          "aliases": [
+            "buscar",
+            "pesquisa"
+          ],
+          "funcao": "pesquisar_comando",
+          "linha": 1340,
+          "decorador": "commands.command"
+        },
+        "pesquisastatus": {
+          "nome": "pesquisastatus",
+          "descricao": "Mostra o estado dos sistemas de pesquisa.",
+          "aliases": [],
+          "funcao": "pesquisastatus",
+          "linha": 1484,
+          "decorador": "commands.command"
+        }
+      },
+      "funcoes": {
+        "setup": {
+          "linha": 1610,
+          "fim": 1618
+        },
+        "__init__": {
+          "linha": 1168,
+          "fim": 1175
+        },
+        "iniciar": {
+          "linha": 90,
+          "fim": 130
+        },
+        "fechar": {
+          "linha": 429,
+          "fim": 433
+        },
+        "get_text": {
+          "linha": 152,
+          "fim": 191
+        },
+        "handle_starttag": {
+          "linha": 248,
+          "fim": 327
+        },
+        "handle_endtag": {
+          "linha": 333,
+          "fim": 375
+        },
+        "handle_data": {
+          "linha": 381,
+          "fim": 406
+        },
+        "normalizar": {
+          "linha": 440,
+          "fim": 448
+        },
+        "normalizar_url": {
+          "linha": 455,
+          "fim": 471
+        },
+        "dominio": {
+          "linha": 478,
+          "fim": 492
+        },
+        "buscar_duckduckgo": {
+          "linha": 498,
+          "fim": 601
+        },
+        "buscar_wikipedia": {
+          "linha": 607,
+          "fim": 740
+        },
+        "pesquisar_fontes": {
+          "linha": 746,
+          "fim": 833
+        },
+        "pontuar": {
+          "linha": 839,
+          "fim": 935
+        },
+        "deduplicar": {
+          "linha": 941,
+          "fim": 982
+        },
+        "obter_cache": {
+          "linha": 988,
+          "fim": 1021
+        },
+        "salvar_cache": {
+          "linha": 1023,
+          "fim": 1038
+        },
+        "pesquisar": {
+          "linha": 1199,
+          "fim": 1206
+        },
+        "cog_unload": {
+          "linha": 1181,
+          "fim": 1193
+        },
+        "criar_embed_resultados": {
+          "linha": 1212,
+          "fim": 1318
+        },
+        "pesquisar_comando": {
+          "linha": 1340,
+          "fim": 1472
+        },
+        "pesquisastatus": {
+          "linha": 1484,
+          "fim": 1603
+        },
+        "atualizar_tempo": {
+          "linha": 1381,
+          "fim": 1421
+        }
+      },
+      "classes": {
+        "ClienteHTTP": {
+          "linha": 74,
+          "fim": 191
+        },
+        "ResultadoPesquisa": {
+          "linha": 199,
+          "fim": 211
+        },
+        "DuckParser": {
+          "linha": 218,
+          "fim": 406
+        },
+        "MotorPesquisa": {
+          "linha": 413,
+          "fim": 1125
+        },
+        "PesquisaView": {
+          "linha": 1132,
+          "fim": 1157
+        },
+        "DesabafosPesquisa": {
+          "linha": 1164,
+          "fim": 1603
+        }
+      }
+    }
+  },
+  "economia.py": {
+    "hash": "3e1e887cbf503491be0361d5a38842e1b917a8a8ca42a7237aa7cb42b5fc8a18",
+    "analise": {
+      "comandos": {
+        "saldo": {
+          "nome": "saldo",
+          "descricao": "Mostra seu perfil econômico.",
+          "aliases": [
+            "bal",
+            "balance"
+          ],
+          "funcao": "saldo",
+          "linha": 4232,
+          "decorador": "commands.command"
+        },
+        "economia": {
+          "nome": "economia",
+          "descricao": "Abre seu painel econômico.",
+          "aliases": [
+            "econ"
+          ],
+          "funcao": "economia",
+          "linha": 4272,
+          "decorador": "commands.command"
+        },
+        "economiaperfil": {
+          "nome": "economiaperfil",
+          "descricao": "Abre seu perfil econômico.",
+          "aliases": [
+            "perfilfinanceiro"
+          ],
+          "funcao": "economiaperfil",
+          "linha": 4295,
+          "decorador": "commands.command"
+        },
+        "diario": {
+          "nome": "diario",
+          "descricao": "Recebe sua recompensa diária.",
+          "aliases": [
+            "daily"
+          ],
+          "funcao": "diario",
+          "linha": 4318,
+          "decorador": "commands.command"
+        },
+        "trabalhar": {
+          "nome": "trabalhar",
+          "descricao": "Trabalha para ganhar moedas e XP.",
+          "aliases": [
+            "work"
+          ],
+          "funcao": "trabalhar",
+          "linha": 4341,
+          "decorador": "commands.command"
+        },
+        "trabalhos": {
+          "nome": "trabalhos",
+          "descricao": "Mostra os trabalhos disponíveis.",
+          "aliases": [
+            "jobs"
+          ],
+          "funcao": "trabalhos",
+          "linha": 4364,
+          "decorador": "commands.command"
+        },
+        "depositar": {
+          "nome": "depositar",
+          "descricao": "Deposita moedas no banco.",
+          "aliases": [
+            "dep",
+            "deposit"
+          ],
+          "funcao": "depositar",
+          "linha": 4438,
+          "decorador": "commands.command"
+        },
+        "sacar": {
+          "nome": "sacar",
+          "descricao": "Saca moedas do banco.",
+          "aliases": [
+            "withdraw"
+          ],
+          "funcao": "sacar",
+          "linha": 4541,
+          "decorador": "commands.command"
+        },
+        "pagar": {
+          "nome": "pagar",
+          "descricao": "Transfere moedas para outro membro.",
+          "aliases": [
+            "pay",
+            "transferir"
+          ],
+          "funcao": "pagar",
+          "linha": 4645,
+          "decorador": "commands.command"
+        },
+        "temas": {
+          "nome": "temas",
+          "descricao": "Mostra os temas do perfil.",
+          "aliases": [
+            "perfiltemas"
+          ],
+          "funcao": "temas",
+          "linha": 4723,
+          "decorador": "commands.command"
+        },
+        "economiatop": {
+          "nome": "economiatop",
+          "descricao": "Mostra o ranking econômico visual.",
+          "aliases": [
+            "moneytop",
+            "ranking",
+            "riqueza"
+          ],
+          "funcao": "economiatop",
+          "linha": 4752,
+          "decorador": "commands.command"
+        },
+        "economiarank": {
+          "nome": "economiarank",
+          "descricao": "Mostra sua posição no ranking econômico.",
+          "aliases": [],
+          "funcao": "economiarank",
+          "linha": 4864,
+          "decorador": "commands.command"
+        },
+        "desafio": {
+          "nome": "desafio",
+          "descricao": "Recebe um desafio recreativo.",
+          "aliases": [
+            "challenge"
+          ],
+          "funcao": "desafio",
+          "linha": 4951,
+          "decorador": "commands.command"
+        },
+        "quiz": {
+          "nome": "quiz",
+          "descricao": "Responde um quiz para ganhar moedas e XP.",
+          "aliases": [],
+          "funcao": "quiz",
+          "linha": 5056,
+          "decorador": "commands.command"
+        },
+        "reacao": {
+          "nome": "reacao",
+          "descricao": "Testa sua velocidade de reação.",
+          "aliases": [
+            "reflexo"
+          ],
+          "funcao": "reacao",
+          "linha": 5237,
+          "decorador": "commands.command"
+        },
+        "economiainfo": {
+          "nome": "economiainfo",
+          "descricao": "Mostra estatísticas gerais da economia.",
+          "aliases": [
+            "economystats"
+          ],
+          "funcao": "economiainfo",
+          "linha": 5435,
+          "decorador": "commands.command"
+        }
+      },
+      "funcoes": {
+        "agora_iso": {
+          "linha": 503,
+          "fim": 507
+        },
+        "formatar_moedas": {
+          "linha": 510,
+          "fim": 520
+        },
+        "calcular_nivel": {
+          "linha": 523,
+          "fim": 552
+        },
+        "barra_progresso": {
+          "linha": 555,
+          "fim": 586
+        },
+        "cor_do_hex": {
+          "linha": 589,
+          "fim": 619
+        },
+        "emoji_seguro": {
+          "linha": 622,
+          "fim": 634
+        },
+        "responder": {
+          "linha": 2278,
+          "fim": 2328
+        },
+        "gerar_banner_ranking": {
+          "linha": 2795,
+          "fim": 3235
+        },
+        "setup": {
+          "linha": 5556,
+          "fim": 5564
+        },
+        "__init__": {
+          "linha": 3569,
+          "fim": 3580
+        },
+        "conectar": {
+          "linha": 660,
+          "fim": 683
+        },
+        "garantir_coluna": {
+          "linha": 689,
+          "fim": 713
+        },
+        "inicializar": {
+          "linha": 719,
+          "fim": 853
+        },
+        "executar": {
+          "linha": 859,
+          "fim": 868
+        },
+        "garantir_usuario": {
+          "linha": 874,
+          "fim": 921
+        },
+        "obter_usuario": {
+          "linha": 927,
+          "fim": 954
+        },
+        "migrar_json_antigo": {
+          "linha": 960,
+          "fim": 1163
+        },
+        "mover_dinheiro": {
+          "linha": 1169,
+          "fim": 1309
+        },
+        "transferir": {
+          "linha": 1315,
+          "fim": 1505
+        },
+        "receber_diario": {
+          "linha": 1511,
+          "fim": 1779
+        },
+        "registrar_trabalho": {
+          "linha": 1785,
+          "fim": 1940
+        },
+        "registrar_recompensa": {
+          "linha": 1946,
+          "fim": 2093
+        },
+        "salvar_cooldown": {
+          "linha": 2099,
+          "fim": 2149
+        },
+        "atualizar_perfil": {
+          "linha": 2155,
+          "fim": 2212
+        },
+        "definir_tema": {
+          "linha": 2218,
+          "fim": 2271
+        },
+        "on_submit": {
+          "linha": 2385,
+          "fim": 2486
+        },
+        "interaction_check": {
+          "linha": 3290,
+          "fim": 3311
+        },
+        "montar_botoes": {
+          "linha": 2538,
+          "fim": 2604
+        },
+        "atualizar": {
+          "linha": 2665,
+          "fim": 2676
+        },
+        "personalizar": {
+          "linha": 2688,
+          "fim": 2698
+        },
+        "daily": {
+          "linha": 2710,
+          "fim": 2718
+        },
+        "trabalhar": {
+          "linha": 4341,
+          "fim": 4348
+        },
+        "temas": {
+          "linha": 4723,
+          "fim": 4734
+        },
+        "fechar": {
+          "linha": 3545,
+          "fim": 3558
+        },
+        "carregar_fonte": {
+          "linha": 2822,
+          "fim": 2844
+        },
+        "atualizar_botoes": {
+          "linha": 3317,
+          "fim": 3327
+        },
+        "itens_pagina": {
+          "linha": 3333,
+          "fim": 3354
+        },
+        "gerar_pagina": {
+          "linha": 3360,
+          "fim": 3438
+        },
+        "anterior": {
+          "linha": 3450,
+          "fim": 3473
+        },
+        "pagina_atual": {
+          "linha": 3485,
+          "fim": 3498
+        },
+        "proximo": {
+          "linha": 3510,
+          "fim": 3533
+        },
+        "trabalhos_desbloqueados": {
+          "linha": 3586,
+          "fim": 3597
+        },
+        "trabalho_maximo": {
+          "linha": 3603,
+          "fim": 3621
+        },
+        "formatar_tempo": {
+          "linha": 3627,
+          "fim": 3668
+        },
+        "segundos_cooldown": {
+          "linha": 3674,
+          "fim": 3709
+        },
+        "criar_embed_perfil": {
+          "linha": 3715,
+          "fim": 3918
+        },
+        "criar_embed_temas": {
+          "linha": 3924,
+          "fim": 3951
+        },
+        "executar_daily": {
+          "linha": 3957,
+          "fim": 4056
+        },
+        "executar_trabalho": {
+          "linha": 4062,
+          "fim": 4215
+        },
+        "saldo": {
+          "linha": 4232,
+          "fim": 4256
+        },
+        "economia": {
+          "linha": 4272,
+          "fim": 4279
+        },
+        "economiaperfil": {
+          "linha": 4295,
+          "fim": 4302
+        },
+        "diario": {
+          "linha": 4318,
+          "fim": 4325
+        },
+        "trabalhos": {
+          "linha": 4364,
+          "fim": 4421
+        },
+        "depositar": {
+          "linha": 4438,
+          "fim": 4525
+        },
+        "sacar": {
+          "linha": 4541,
+          "fim": 4628
+        },
+        "pagar": {
+          "linha": 4645,
+          "fim": 4707
+        },
+        "economiatop": {
+          "linha": 4752,
+          "fim": 4851
+        },
+        "economiarank": {
+          "linha": 4864,
+          "fim": 4935
+        },
+        "desafio": {
+          "linha": 4951,
+          "fim": 5043
+        },
+        "quiz": {
+          "linha": 5056,
+          "fim": 5221
+        },
+        "reacao": {
+          "linha": 5237,
+          "fim": 5419
+        },
+        "economiainfo": {
+          "linha": 5435,
+          "fim": 5549
+        },
+        "operacao": {
+          "linha": 2231,
+          "fim": 2267
+        },
+        "buscar": {
+          "linha": 5440,
+          "fim": 5479
+        },
+        "verificar": {
+          "linha": 5300,
+          "fim": 5316
+        },
+        "callback": {
+          "linha": 2559,
+          "fim": 2598
+        }
+      },
+      "classes": {
+        "BancoEconomia": {
+          "linha": 641,
+          "fim": 2271
+        },
+        "PersonalizarPerfilModal": {
+          "linha": 2335,
+          "fim": 2486
+        },
+        "TemasView": {
+          "linha": 2493,
+          "fim": 2604
+        },
+        "EconomiaPerfilView": {
+          "linha": 2611,
+          "fim": 2788
+        },
+        "RankingEconomiaView": {
+          "linha": 3242,
+          "fim": 3558
+        },
+        "Economia": {
+          "linha": 3565,
+          "fim": 5549
+        }
+      }
+    }
+  },
+  "help.py": {
+    "hash": "5b3af4798e7f39b9a4fc1c4ea41d365785e227bf1e35c896d5278076d8dd2311",
+    "analise": {
+      "comandos": {
+        "ajuda": {
+          "nome": "ajuda",
+          "descricao": "Abre a Central de Ajuda do Royalt.",
+          "aliases": [
+            "comandos"
+          ],
+          "funcao": "ajuda",
+          "linha": 607,
+          "decorador": "commands.hybrid_command"
+        }
+      },
+      "funcoes": {
+        "_agora": {
+          "linha": 64,
+          "fim": 65
+        },
+        "setup": {
+          "linha": 612,
+          "fim": 622
+        },
+        "__init__": {
+          "linha": 572,
+          "fim": 575
+        },
+        "callback": {
+          "linha": 231,
+          "fim": 246
+        },
+        "validar_usuario": {
+          "linha": 258,
+          "fim": 265
+        },
+        "rebuild": {
+          "linha": 267,
+          "fim": 277
+        },
+        "obter_comandos": {
+          "linha": 279,
+          "fim": 294
+        },
+        "comandos_categoria": {
+          "linha": 296,
+          "fim": 301
+        },
+        "categorias_existentes": {
+          "linha": 303,
+          "fim": 323
+        },
+        "base_embed": {
+          "linha": 325,
+          "fim": 339
+        },
+        "pagina_inicial": {
+          "linha": 341,
+          "fim": 394
+        },
+        "pagina_categorias": {
+          "linha": 396,
+          "fim": 413
+        },
+        "pagina_categoria": {
+          "linha": 415,
+          "fim": 475
+        },
+        "pagina_updates": {
+          "linha": 477,
+          "fim": 536
+        },
+        "pagina_update_info": {
+          "linha": 538,
+          "fim": 551
+        },
+        "pagina_como_funciona": {
+          "linha": 553,
+          "fim": 568
+        },
+        "_verificar_updates_ao_iniciar": {
+          "linha": 577,
+          "fim": 596
+        },
+        "cog_unload": {
+          "linha": 598,
+          "fim": 600
+        },
+        "ajuda": {
+          "linha": 607,
+          "fim": 609
+        }
+      },
+      "classes": {
+        "HelpSelect": {
+          "linha": 68,
+          "fim": 147
+        },
+        "CategoriaSelect": {
+          "linha": 150,
+          "fim": 197
+        },
+        "UpdateSelect": {
+          "linha": 200,
+          "fim": 246
+        },
+        "HelpView": {
+          "linha": 249,
+          "fim": 568
+        },
+        "Help": {
+          "linha": 571,
+          "fim": 609
+        }
+      }
+    }
+  },
+  "logs.py": {
+    "hash": "46912e453b5ffa178f1b693b4e35e8d90c38ce06ba472d8038a33ea1ed1b8f80",
+    "analise": {
+      "comandos": {
+        "setlogs": {
+          "nome": "setlogs",
+          "descricao": "Define o canal onde os logs serão enviados.",
+          "aliases": [],
+          "funcao": "setlogs",
+          "linha": 486,
+          "decorador": "commands.hybrid_command"
+        },
+        "logs": {
+          "nome": "logs",
+          "descricao": "Abre o painel de configuração dos logs.",
+          "aliases": [],
+          "funcao": "logs",
+          "linha": 543,
+          "decorador": "commands.hybrid_command"
+        },
+        "testlog": {
+          "nome": "testlog",
+          "descricao": "Testa o sistema de logs.",
+          "aliases": [],
+          "funcao": "testlog",
+          "linha": 569,
+          "decorador": "commands.hybrid_command"
+        }
+      },
+      "funcoes": {
+        "agora": {
+          "linha": 35,
+          "fim": 36
+        },
+        "setup": {
+          "linha": 864,
+          "fim": 870
+        },
+        "__init__": {
+          "linha": 296,
+          "fim": 302
+        },
+        "interaction_check": {
+          "linha": 58,
+          "fim": 73
+        },
+        "painel": {
+          "linha": 79,
+          "fim": 125
+        },
+        "configurar": {
+          "linha": 136,
+          "fim": 158
+        },
+        "testar": {
+          "linha": 169,
+          "fim": 222
+        },
+        "remover": {
+          "linha": 233,
+          "fim": 267
+        },
+        "atualizar": {
+          "linha": 278,
+          "fim": 287
+        },
+        "carregar_configuracoes": {
+          "linha": 308,
+          "fim": 340
+        },
+        "salvar_configuracoes": {
+          "linha": 346,
+          "fim": 367
+        },
+        "obter_canal_logs": {
+          "linha": 373,
+          "fim": 416
+        },
+        "enviar_log": {
+          "linha": 422,
+          "fim": 469
+        },
+        "setlogs": {
+          "linha": 486,
+          "fim": 530
+        },
+        "logs": {
+          "linha": 543,
+          "fim": 556
+        },
+        "testlog": {
+          "linha": 569,
+          "fim": 618
+        },
+        "on_member_join": {
+          "linha": 625,
+          "fim": 642
+        },
+        "on_member_remove": {
+          "linha": 649,
+          "fim": 663
+        },
+        "on_member_update": {
+          "linha": 670,
+          "fim": 752
+        },
+        "on_message_delete": {
+          "linha": 759,
+          "fim": 793
+        },
+        "on_message_edit": {
+          "linha": 800,
+          "fim": 831
+        },
+        "on_member_join_bot": {
+          "linha": 838,
+          "fim": 857
+        }
+      },
+      "classes": {
+        "LogsView": {
+          "linha": 43,
+          "fim": 287
+        },
+        "Logs": {
+          "linha": 294,
+          "fim": 857
+        }
+      }
+    }
+  },
+  "moderation.py": {
+    "hash": "3e44ead5210073f852642a58e0b6d4f7a0e324119cd01e386556038ae75ee0df",
+    "analise": {
+      "comandos": {
+        "ban": {
+          "nome": "ban",
+          "descricao": "Bane um usuário do servidor.",
+          "aliases": [],
+          "funcao": "ban",
+          "linha": 475,
+          "decorador": "commands.hybrid_command"
+        },
+        "unban": {
+          "nome": "unban",
+          "descricao": "Remove o banimento de um usuário.",
+          "aliases": [],
+          "funcao": "unban",
+          "linha": 559,
+          "decorador": "commands.hybrid_command"
+        },
+        "kick": {
+          "nome": "kick",
+          "descricao": "Expulsa um usuário do servidor.",
+          "aliases": [],
+          "funcao": "kick",
+          "linha": 662,
+          "decorador": "commands.hybrid_command"
+        },
+        "timeout": {
+          "nome": "timeout",
+          "descricao": "Coloca um usuário em timeout/mute.",
+          "aliases": [],
+          "funcao": "timeout",
+          "linha": 745,
+          "decorador": "commands.hybrid_command"
+        },
+        "unmute": {
+          "nome": "unmute",
+          "descricao": "Remove o timeout de um usuário.",
+          "aliases": [],
+          "funcao": "unmute",
+          "linha": 832,
+          "decorador": "commands.hybrid_command"
+        },
+        "warn": {
+          "nome": "warn",
+          "descricao": "Adverte um usuário.",
+          "aliases": [],
+          "funcao": "warn",
+          "linha": 896,
+          "decorador": "commands.hybrid_command"
+        },
+        "warns": {
+          "nome": "warns",
+          "descricao": "Mostra os avisos de um usuário.",
+          "aliases": [],
+          "funcao": "warns",
+          "linha": 977,
+          "decorador": "commands.hybrid_command"
+        },
+        "clear": {
+          "nome": "clear",
+          "descricao": "Apaga mensagens do canal.",
+          "aliases": [],
+          "funcao": "clear",
+          "linha": 1103,
+          "decorador": "commands.hybrid_command"
+        },
+        "lock": {
+          "nome": "lock",
+          "descricao": "Bloqueia o canal para membros.",
+          "aliases": [],
+          "funcao": "lock",
+          "linha": 1184,
+          "decorador": "commands.hybrid_command"
+        },
+        "unlock": {
+          "nome": "unlock",
+          "descricao": "Desbloqueia o canal.",
+          "aliases": [],
+          "funcao": "unlock",
+          "linha": 1249,
+          "decorador": "commands.hybrid_command"
+        },
+        "slowmode": {
+          "nome": "slowmode",
+          "descricao": "Define o slowmode do canal.",
+          "aliases": [],
+          "funcao": "slowmode",
+          "linha": 1314,
+          "decorador": "commands.hybrid_command"
+        }
+      },
+      "funcoes": {
+        "setup": {
+          "linha": 1390,
+          "fim": 1394
+        },
+        "__init__": {
+          "linha": 167,
+          "fim": 173
+        },
+        "interaction_check": {
+          "linha": 89,
+          "fim": 104
+        },
+        "sim": {
+          "linha": 115,
+          "fim": 131
+        },
+        "nao": {
+          "linha": 142,
+          "fim": 158
+        },
+        "carregar_warns": {
+          "linha": 179,
+          "fim": 209
+        },
+        "salvar_warns": {
+          "linha": 215,
+          "fim": 236
+        },
+        "obter_warns": {
+          "linha": 242,
+          "fim": 259
+        },
+        "aplicar_banner": {
+          "linha": 265,
+          "fim": 277
+        },
+        "criar_embed": {
+          "linha": 283,
+          "fim": 335
+        },
+        "enviar_log": {
+          "linha": 341,
+          "fim": 401
+        },
+        "pedir_confirmacao": {
+          "linha": 407,
+          "fim": 459
+        },
+        "ban": {
+          "linha": 475,
+          "fim": 543
+        },
+        "unban": {
+          "linha": 559,
+          "fim": 646
+        },
+        "kick": {
+          "linha": 662,
+          "fim": 729
+        },
+        "timeout": {
+          "linha": 745,
+          "fim": 816
+        },
+        "unmute": {
+          "linha": 832,
+          "fim": 883
+        },
+        "warn": {
+          "linha": 896,
+          "fim": 964
+        },
+        "warns": {
+          "linha": 977,
+          "fim": 1087
+        },
+        "clear": {
+          "linha": 1103,
+          "fim": 1168
+        },
+        "lock": {
+          "linha": 1184,
+          "fim": 1233
+        },
+        "unlock": {
+          "linha": 1249,
+          "fim": 1298
+        },
+        "slowmode": {
+          "linha": 1314,
+          "fim": 1383
+        }
+      },
+      "classes": {
+        "ConfirmacaoView": {
+          "linha": 74,
+          "fim": 158
+        },
+        "Moderation": {
+          "linha": 165,
+          "fim": 1383
+        }
+      }
+    }
+  },
+  "permissions.py": {
+    "hash": "7acbaf33b600b3a5f313c48ea52c847e15b6f983fe0e338ff863e53f0f297a43",
+    "analise": {
+      "comandos": {},
+      "funcoes": {
+        "agora_iso": {
+          "linha": 33,
+          "fim": 34
+        },
+        "tem_permissao": {
+          "linha": 318,
+          "fim": 330
+        },
+        "pode_abrir_painel": {
+          "linha": 332,
+          "fim": 337
+        },
+        "__init__": {
+          "linha": 37,
+          "fim": 41
+        },
+        "conectar": {
+          "linha": 43,
+          "fim": 49
+        },
+        "inicializar": {
+          "linha": 51,
+          "fim": 90
+        },
+        "fechar": {
+          "linha": 92,
+          "fim": 99
+        },
+        "sistema_existe": {
+          "linha": 101,
+          "fim": 102
+        },
+        "nome_sistema": {
+          "linha": 104,
+          "fim": 106
+        },
+        "emoji_sistema": {
+          "linha": 108,
+          "fim": 110
+        },
+        "registrar_guild": {
+          "linha": 112,
+          "fim": 127
+        },
+        "garantir_guild": {
+          "linha": 129,
+          "fim": 153
+        },
+        "adicionar_permissao": {
+          "linha": 155,
+          "fim": 195
+        },
+        "remover_permissao": {
+          "linha": 197,
+          "fim": 207
+        },
+        "limpar_sistema": {
+          "linha": 209,
+          "fim": 219
+        },
+        "limpar_guild": {
+          "linha": 221,
+          "fim": 224
+        },
+        "obter_guild": {
+          "linha": 226,
+          "fim": 234
+        },
+        "obter_permissoes": {
+          "linha": 236,
+          "fim": 251
+        },
+        "contar_permissoes": {
+          "linha": 253,
+          "fim": 266
+        },
+        "verificar_id": {
+          "linha": 268,
+          "fim": 299
+        },
+        "verificar": {
+          "linha": 301,
+          "fim": 316
+        }
+      },
+      "classes": {
+        "PermissionsManager": {
+          "linha": 36,
+          "fim": 337
+        }
+      }
+    }
+  },
+  "pokemon.py": {
+    "hash": "f76c9b80846f85083b66f4b264ce3706270a829bb8dc2618bc52232c04d52aa3",
+    "analise": {
+      "comandos": {
+        "pokemonhelp": {
+          "nome": "pokemonhelp",
+          "descricao": "Abre a central de ajuda da área Pokémon.",
+          "aliases": [
+            "phelp",
+            "pokemonajuda"
+          ],
+          "funcao": "pokemonhelp",
+          "linha": 6493,
+          "decorador": "commands.hybrid_command"
+        },
+        "pokemon": {
+          "nome": "insignias",
+          "descricao": "Mostra suas insígnias e o progresso por região.",
+          "aliases": [
+            "poke"
+          ],
+          "funcao": "pokemon",
+          "linha": 6505,
+          "decorador": "commands.hybrid_command"
+        },
+        "starters": {
+          "nome": "starters",
+          "descricao": "Escolhe seu Pokémon inicial entre as 9 regiões.",
+          "aliases": [
+            "inicial",
+            "starter"
+          ],
+          "funcao": "starters",
+          "linha": 6558,
+          "decorador": "commands.hybrid_command"
+        },
+        "pokecaixa": {
+          "nome": "pokecaixa",
+          "descricao": "Resgata sua recompensa diária e mantém seu streak.",
+          "aliases": [
+            "bonus",
+            "caixa"
+          ],
+          "funcao": "pokecaixa",
+          "linha": 6586,
+          "decorador": "commands.command"
+        },
+        "ginasios": {
+          "nome": "ginasios",
+          "descricao": "Abre os ginásios e a Elite 4 Pokémon.",
+          "aliases": [
+            "ginasio",
+            "liga"
+          ],
+          "funcao": "ginasios",
+          "linha": 6634,
+          "decorador": "commands.hybrid_command"
+        },
+        "pokecoins": {
+          "nome": "pokecoins",
+          "descricao": "Mostra seu saldo de Pokécoins.",
+          "aliases": [],
+          "funcao": "pokecoins",
+          "linha": 6662,
+          "decorador": "commands.command"
+        },
+        "capturar_comando": {
+          "nome": "c",
+          "descricao": "Tenta capturar o Pokémon selvagem atual.",
+          "aliases": [
+            "capturar",
+            "capture"
+          ],
+          "funcao": "capturar_comando",
+          "linha": 6689,
+          "decorador": "commands.command"
+        },
+        "explorar": {
+          "nome": "explorar",
+          "descricao": "Explora uma região em busca de Pokémon.",
+          "aliases": [
+            "explore"
+          ],
+          "funcao": "explorar",
+          "linha": 6718,
+          "decorador": "commands.command"
+        },
+        "perfil": {
+          "nome": "perfil",
+          "descricao": "Mostra seu perfil e abre a personalização.",
+          "aliases": [
+            "card",
+            "profile"
+          ],
+          "funcao": "perfil",
+          "linha": 7370,
+          "decorador": "commands.hybrid_command"
+        },
+        "perfilbio": {
+          "nome": "perfilbio",
+          "descricao": "Define a bio do seu perfil Pokémon.",
+          "aliases": [
+            "bioperfil"
+          ],
+          "funcao": "perfilbio",
+          "linha": 7402,
+          "decorador": "commands.command"
+        },
+        "personalizar": {
+          "nome": "personalizar",
+          "descricao": "",
+          "aliases": [
+            "custom",
+            "customizar"
+          ],
+          "funcao": "personalizar",
+          "linha": 7424,
+          "decorador": "commands.command"
+        },
+        "pokelista": {
+          "nome": "pokelista",
+          "descricao": "Lista seus Pokémon.",
+          "aliases": [
+            "lista",
+            "pokemons"
+          ],
+          "funcao": "pokelista",
+          "linha": 7452,
+          "decorador": "commands.command"
+        },
+        "equipe": {
+          "nome": "equipe",
+          "descricao": "Mostra sua equipe e permite ver cada Pokémon em detalhes.",
+          "aliases": [
+            "time",
+            "timepokemon"
+          ],
+          "funcao": "equipe",
+          "linha": 7754,
+          "decorador": "commands.hybrid_command"
+        },
+        "equipeadd": {
+          "nome": "equipeadd",
+          "descricao": "Adiciona um Pokémon à equipe.",
+          "aliases": [],
+          "funcao": "equipeadd",
+          "linha": 7788,
+          "decorador": "commands.command"
+        },
+        "equiperemover": {
+          "nome": "equiperemover",
+          "descricao": "Remove um Pokémon da equipe.",
+          "aliases": [
+            "equireremover"
+          ],
+          "funcao": "equiperemover",
+          "linha": 7828,
+          "decorador": "commands.command"
+        },
+        "pokeloja": {
+          "nome": "pokeloja",
+          "descricao": "Abre a PokéMart.",
+          "aliases": [
+            "lojapokemon",
+            "pokemart"
+          ],
+          "funcao": "pokeloja",
+          "linha": 7946,
+          "decorador": "commands.command"
+        },
+        "comprar": {
+          "nome": "comprar",
+          "descricao": "Compra itens na PokéMart.",
+          "aliases": [
+            "buy"
+          ],
+          "funcao": "comprar",
+          "linha": 7975,
+          "decorador": "commands.command"
+        },
+        "pokedex": {
+          "nome": "pokedex",
+          "descricao": "Abre a Pokédex completa com navegação por região e Pokémon.",
+          "aliases": [
+            "dex"
+          ],
+          "funcao": "pokedex",
+          "linha": 8361,
+          "decorador": "commands.hybrid_command"
+        },
+        "pokeconquistas": {
+          "nome": "pokeconquistas",
+          "descricao": "Mostra suas conquistas, objetivos e recompensas Pokémon.",
+          "aliases": [
+            "conquistaspokemon"
+          ],
+          "funcao": "pokeconquistas",
+          "linha": 8394,
+          "decorador": "commands.hybrid_command"
+        },
+        "evoluir": {
+          "nome": "evoluir",
+          "descricao": "Evolui um Pokémon por nível, item ou requisito especial.",
+          "aliases": [
+            "evolution"
+          ],
+          "funcao": "evoluir",
+          "linha": 8446,
+          "decorador": "commands.command"
+        },
+        "trocar": {
+          "nome": "trocar",
+          "descricao": "Propõe uma troca entre dois treinadores.",
+          "aliases": [
+            "trade"
+          ],
+          "funcao": "trocar",
+          "linha": 8634,
+          "decorador": "commands.command"
+        },
+        "batalhar": {
+          "nome": "batalhar",
+          "descricao": "Desafia outro treinador em uma batalha de equipes.",
+          "aliases": [
+            "battle",
+            "duelo"
+          ],
+          "funcao": "batalhar",
+          "linha": 9716,
+          "decorador": "commands.command"
+        },
+        "poketopregistrar": {
+          "nome": "poketopregistrar",
+          "descricao": "Registra sua equipe de 6 Pokémon no PokéTop do servidor.",
+          "aliases": [
+            "registrar_poketop",
+            "registrarpoketop"
+          ],
+          "funcao": "poketopregistrar",
+          "linha": 10279,
+          "decorador": "commands.hybrid_command"
+        },
+        "poketop": {
+          "nome": "poketop",
+          "descricao": "Mostra o Top 100 das equipes Pokémon do servidor.",
+          "aliases": [
+            "pokemonrank",
+            "rankpokemon"
+          ],
+          "funcao": "poketop",
+          "linha": 10325,
+          "decorador": "commands.hybrid_command"
+        }
+      },
+      "funcoes": {
+        "extrair_base_stats_pokeapi": {
+          "linha": 517,
+          "fim": 540
+        },
+        "gerar_ivs": {
+          "linha": 543,
+          "fim": 549
+        },
+        "calcular_stats_pokemon": {
+          "linha": 552,
+          "fim": 563
+        },
+        "calcular_nivel_pokemon": {
+          "linha": 566,
+          "fim": 567
+        },
+        "xp_atual_pokemon": {
+          "linha": 570,
+          "fim": 571
+        },
+        "barra_xp_pokemon": {
+          "linha": 574,
+          "fim": 577
+        },
+        "agora_iso": {
+          "linha": 886,
+          "fim": 890
+        },
+        "formatar_tempo": {
+          "linha": 893,
+          "fim": 933
+        },
+        "nivel_treinador": {
+          "linha": 936,
+          "fim": 947
+        },
+        "xp_atual": {
+          "linha": 950,
+          "fim": 958
+        },
+        "barra_xp": {
+          "linha": 961,
+          "fim": 997
+        },
+        "nome_formatado": {
+          "linha": 1000,
+          "fim": 1011
+        },
+        "escolher_raridade": {
+          "linha": 1014,
+          "fim": 1034
+        },
+        "escolher_regiao": {
+          "linha": 1037,
+          "fim": 1043
+        },
+        "obter_emoji_tipo": {
+          "linha": 1046,
+          "fim": 1053
+        },
+        "extrair_movimentos_combate": {
+          "linha": 4223,
+          "fim": 4276
+        },
+        "emoji_interface": {
+          "linha": 4308,
+          "fim": 4312
+        },
+        "aplicar_fonte": {
+          "linha": 4654,
+          "fim": 4662
+        },
+        "periodo_poketop_atual": {
+          "linha": 5983,
+          "fim": 5988
+        },
+        "recompensa_poketop": {
+          "linha": 5991,
+          "fim": 5996
+        },
+        "texto_recompensa_poketop": {
+          "linha": 5999,
+          "fim": 6008
+        },
+        "setup": {
+          "linha": 10340,
+          "fim": 10348
+        },
+        "__init__": {
+          "linha": 6212,
+          "fim": 6237
+        },
+        "conectar": {
+          "linha": 1079,
+          "fim": 1102
+        },
+        "adicionar_coluna_se_faltar": {
+          "linha": 1108,
+          "fim": 1152
+        },
+        "inicializar": {
+          "linha": 1159,
+          "fim": 1994
+        },
+        "executar": {
+          "linha": 2000,
+          "fim": 2009
+        },
+        "garantir_treinador": {
+          "linha": 2015,
+          "fim": 2069
+        },
+        "obter_treinador": {
+          "linha": 2075,
+          "fim": 2105
+        },
+        "obter_perfil": {
+          "linha": 2107,
+          "fim": 2109
+        },
+        "listar_itens_perfil": {
+          "linha": 2111,
+          "fim": 2124
+        },
+        "alterar_ball": {
+          "linha": 2130,
+          "fim": 2223
+        },
+        "alterar_pokecoins": {
+          "linha": 2229,
+          "fim": 2301
+        },
+        "salvar_cooldown": {
+          "linha": 2307,
+          "fim": 2335
+        },
+        "resgatar_pokecaixa": {
+          "linha": 2341,
+          "fim": 2439
+        },
+        "adicionar_xp": {
+          "linha": 2445,
+          "fim": 2539
+        },
+        "escolher_starter": {
+          "linha": 2545,
+          "fim": 2611
+        },
+        "comprar_item_jornada": {
+          "linha": 2613,
+          "fim": 2677
+        },
+        "listar_itens_jornada": {
+          "linha": 2679,
+          "fim": 2694
+        },
+        "consumir_item_jornada": {
+          "linha": 2696,
+          "fim": 2726
+        },
+        "garantir_colunas_perfil": {
+          "linha": 2728,
+          "fim": 2747
+        },
+        "possui_item_perfil": {
+          "linha": 2749,
+          "fim": 2759
+        },
+        "equipar_item_perfil": {
+          "linha": 2761,
+          "fim": 2789
+        },
+        "comprar_item_perfil": {
+          "linha": 2791,
+          "fim": 2820
+        },
+        "equipar_perfil": {
+          "linha": 2822,
+          "fim": 2847
+        },
+        "salvar_bio": {
+          "linha": 2849,
+          "fim": 2861
+        },
+        "capturar": {
+          "linha": 2867,
+          "fim": 2988
+        },
+        "atualizar_dados_combate_pokemon": {
+          "linha": 2990,
+          "fim": 3019
+        },
+        "atualizar_stats_pokemon": {
+          "linha": 3021,
+          "fim": 3078
+        },
+        "adicionar_xp_pokemon": {
+          "linha": 3080,
+          "fim": 3148
+        },
+        "listar_pokemon": {
+          "linha": 3154,
+          "fim": 3193
+        },
+        "obter_pokemon": {
+          "linha": 3195,
+          "fim": 3221
+        },
+        "adicionar_equipe": {
+          "linha": 3227,
+          "fim": 3305
+        },
+        "remover_equipe": {
+          "linha": 3307,
+          "fim": 3396
+        },
+        "registrar_exploracao": {
+          "linha": 3402,
+          "fim": 3446
+        },
+        "possui_batalha_pve_pendente": {
+          "linha": 3448,
+          "fim": 3455
+        },
+        "concluir_batalha_pve": {
+          "linha": 3457,
+          "fim": 3488
+        },
+        "registrar_resultado_batalha_pve": {
+          "linha": 3490,
+          "fim": 3511
+        },
+        "listar_insignias": {
+          "linha": 3517,
+          "fim": 3540
+        },
+        "possui_insignia": {
+          "linha": 3542,
+          "fim": 3551
+        },
+        "conquistar_insignia": {
+          "linha": 3553,
+          "fim": 3580
+        },
+        "obter_progresso_liga": {
+          "linha": 3582,
+          "fim": 3607
+        },
+        "avancar_elite4": {
+          "linha": 3609,
+          "fim": 3651
+        },
+        "contar_dex": {
+          "linha": 3657,
+          "fim": 3685
+        },
+        "desbloquear_conquista": {
+          "linha": 3691,
+          "fim": 3743
+        },
+        "resgatar_recompensa_poketop": {
+          "linha": 3745,
+          "fim": 3837
+        },
+        "obter_recompensa_poketop_resgatada": {
+          "linha": 3839,
+          "fim": 3846
+        },
+        "listar_conquistas": {
+          "linha": 3848,
+          "fim": 3877
+        },
+        "evoluir_pokemon": {
+          "linha": 3883,
+          "fim": 3978
+        },
+        "registrar_resultado_pokemon_batalha": {
+          "linha": 3980,
+          "fim": 4064
+        },
+        "registrar_resultado_batalha": {
+          "linha": 4070,
+          "fim": 4112
+        },
+        "iniciar": {
+          "linha": 4129,
+          "fim": 4143
+        },
+        "fechar": {
+          "linha": 6201,
+          "fim": 6205
+        },
+        "get": {
+          "linha": 4155,
+          "fim": 4195
+        },
+        "pokemon": {
+          "linha": 6505,
+          "fim": 6521
+        },
+        "especie": {
+          "linha": 4206,
+          "fim": 4213
+        },
+        "movimento": {
+          "linha": 4216,
+          "fim": 4217
+        },
+        "callback": {
+          "linha": 5678,
+          "fim": 5683
+        },
+        "abrir_log": {
+          "linha": 4365,
+          "fim": 4372
+        },
+        "voltar": {
+          "linha": 6195,
+          "fim": 6199
+        },
+        "_callback_starter": {
+          "linha": 4594,
+          "fim": 4649
+        },
+        "personalizar": {
+          "linha": 7424,
+          "fim": 7436
+        },
+        "atualizar": {
+          "linha": 5944,
+          "fim": 5965
+        },
+        "mart": {
+          "linha": 4876,
+          "fim": 4895
+        },
+        "criar_callback": {
+          "linha": 4801,
+          "fim": 4812
+        },
+        "mostrar_categoria": {
+          "linha": 4814,
+          "fim": 4854
+        },
+        "equipar": {
+          "linha": 5051,
+          "fim": 5107
+        },
+        "comprar_callback": {
+          "linha": 5231,
+          "fim": 5358
+        },
+        "jornada_callback": {
+          "linha": 5360,
+          "fim": 5373
+        },
+        "perfil_callback": {
+          "linha": 5375,
+          "fim": 5388
+        },
+        "estoque_callback": {
+          "linha": 5390,
+          "fim": 5420
+        },
+        "abrir_ginasios": {
+          "linha": 5504,
+          "fim": 5522
+        },
+        "desafiar": {
+          "linha": 5556,
+          "fim": 5592
+        },
+        "desafiar_elite": {
+          "linha": 5594,
+          "fim": 5605
+        },
+        "atualizar_botoes": {
+          "linha": 5659,
+          "fim": 5675
+        },
+        "criar_ataque_callback": {
+          "linha": 5677,
+          "fim": 5684
+        },
+        "trocar": {
+          "linha": 8634,
+          "fim": 8716
+        },
+        "desistir": {
+          "linha": 5703,
+          "fim": 5725
+        },
+        "abrir_recompensas": {
+          "linha": 6077,
+          "fim": 6101
+        },
+        "avancar": {
+          "linha": 6109,
+          "fim": 6113
+        },
+        "resgatar": {
+          "linha": 6133,
+          "fim": 6163
+        },
+        "cog_unload": {
+          "linha": 6239,
+          "fim": 6244
+        },
+        "cog_before_invoke": {
+          "linha": 6246,
+          "fim": 6271
+        },
+        "segundos_cooldown": {
+          "linha": 6277,
+          "fim": 6314
+        },
+        "criar_embed_insignias": {
+          "linha": 6320,
+          "fim": 6379
+        },
+        "obter_paginas_ajuda": {
+          "linha": 6381,
+          "fim": 6451
+        },
+        "criar_embed_ajuda": {
+          "linha": 6453,
+          "fim": 6473
+        },
+        "criar_embed_pokelog": {
+          "linha": 6475,
+          "fim": 6485
+        },
+        "pokemonhelp": {
+          "linha": 6493,
+          "fim": 6497
+        },
+        "criar_embed_starters": {
+          "linha": 6527,
+          "fim": 6550
+        },
+        "starters": {
+          "linha": 6558,
+          "fim": 6574
+        },
+        "pokecaixa": {
+          "linha": 6586,
+          "fim": 6626
+        },
+        "ginasios": {
+          "linha": 6634,
+          "fim": 6655
+        },
+        "pokecoins": {
+          "linha": 6662,
+          "fim": 6674
+        },
+        "capturar_comando": {
+          "linha": 6689,
+          "fim": 6702
+        },
+        "explorar": {
+          "linha": 6718,
+          "fim": 7286
+        },
+        "criar_embed_perfil": {
+          "linha": 7292,
+          "fim": 7362
+        },
+        "perfil": {
+          "linha": 7370,
+          "fim": 7390
+        },
+        "perfilbio": {
+          "linha": 7402,
+          "fim": 7413
+        },
+        "pokelista": {
+          "linha": 7452,
+          "fim": 7523
+        },
+        "sincronizar_pokemon_com_api": {
+          "linha": 7529,
+          "fim": 7558
+        },
+        "sprite_pokemon": {
+          "linha": 7560,
+          "fim": 7565
+        },
+        "criar_embed_equipe": {
+          "linha": 7567,
+          "fim": 7625
+        },
+        "criar_embed_pokemon_detalhado": {
+          "linha": 7627,
+          "fim": 7746
+        },
+        "equipe": {
+          "linha": 7754,
+          "fim": 7777
+        },
+        "equipeadd": {
+          "linha": 7788,
+          "fim": 7814
+        },
+        "equiperemover": {
+          "linha": 7828,
+          "fim": 7851
+        },
+        "criar_embed_pokemart": {
+          "linha": 7853,
+          "fim": 7907
+        },
+        "pokemart_slash": {
+          "linha": 7914,
+          "fim": 7931
+        },
+        "pokeloja": {
+          "linha": 7946,
+          "fim": 7961
+        },
+        "comprar": {
+          "linha": 7975,
+          "fim": 8091
+        },
+        "regiao_por_pokemon_id": {
+          "linha": 8097,
+          "fim": 8102
+        },
+        "pagina_por_pokemon_id": {
+          "linha": 8104,
+          "fim": 8107
+        },
+        "raridade_dex": {
+          "linha": 8109,
+          "fim": 8124
+        },
+        "nome_pokedex": {
+          "linha": 8127,
+          "fim": 8128
+        },
+        "extrair_golpes_pokedex": {
+          "linha": 8130,
+          "fim": 8146
+        },
+        "formatar_requisito_evolucao": {
+          "linha": 8148,
+          "fim": 8194
+        },
+        "extrair_evolucoes_dex": {
+          "linha": 8196,
+          "fim": 8215
+        },
+        "criar_embed_pokedex_indice": {
+          "linha": 8217,
+          "fim": 8238
+        },
+        "criar_embed_pokedex_detalhe": {
+          "linha": 8240,
+          "fim": 8273
+        },
+        "criar_embed_pokedex_detalhe_async": {
+          "linha": 8275,
+          "fim": 8291
+        },
+        "criar_embed_pokedex_evolucao_async": {
+          "linha": 8293,
+          "fim": 8315
+        },
+        "criar_embed_pokedex_especiais": {
+          "linha": 8317,
+          "fim": 8332
+        },
+        "criar_embed_pokedex_ginasios": {
+          "linha": 8334,
+          "fim": 8352
+        },
+        "pokedex": {
+          "linha": 8361,
+          "fim": 8382
+        },
+        "pokeconquistas": {
+          "linha": 8394,
+          "fim": 8399
+        },
+        "criar_embed_conquistas": {
+          "linha": 8401,
+          "fim": 8434
+        },
+        "evoluir": {
+          "linha": 8446,
+          "fim": 8620
+        },
+        "criar_equipe_pve": {
+          "linha": 8722,
+          "fim": 8799
+        },
+        "simular_batalha_pve": {
+          "linha": 8801,
+          "fim": 8860
+        },
+        "dados_pokemon_batalha": {
+          "linha": 8866,
+          "fim": 8903
+        },
+        "tipo_efetividade": {
+          "linha": 8905,
+          "fim": 8954
+        },
+        "calcular_dano_manual": {
+          "linha": 8956,
+          "fim": 8981
+        },
+        "criar_embed_ginasios": {
+          "linha": 8983,
+          "fim": 9025
+        },
+        "montar_time_lider": {
+          "linha": 9027,
+          "fim": 9047
+        },
+        "iniciar_batalha_ginasio": {
+          "linha": 9049,
+          "fim": 9156
+        },
+        "processar_turno_ginasio": {
+          "linha": 9158,
+          "fim": 9281
+        },
+        "ataque_ia_lider": {
+          "linha": 9283,
+          "fim": 9324
+        },
+        "criar_embed_batalha_ginasio": {
+          "linha": 9326,
+          "fim": 9355
+        },
+        "finalizar_batalha_ginasio": {
+          "linha": 9357,
+          "fim": 9476
+        },
+        "iniciar_batalha_elite": {
+          "linha": 9478,
+          "fim": 9610
+        },
+        "batalha_pve": {
+          "linha": 9612,
+          "fim": 9704
+        },
+        "batalhar": {
+          "linha": 9716,
+          "fim": 9986
+        },
+        "poder_pokemon": {
+          "linha": 9992,
+          "fim": 10008
+        },
+        "registrar_no_poketop": {
+          "linha": 10014,
+          "fim": 10054
+        },
+        "remover_do_poketop": {
+          "linha": 10056,
+          "fim": 10070
+        },
+        "calcular_poder_equipe": {
+          "linha": 10072,
+          "fim": 10073
+        },
+        "_calcular_ranking_poketop": {
+          "linha": 10075,
+          "fim": 10153
+        },
+        "obter_ranking_poketop": {
+          "linha": 10155,
+          "fim": 10171
+        },
+        "poketop_atualizacao": {
+          "linha": 10174,
+          "fim": 10193
+        },
+        "antes_atualizar_poketop": {
+          "linha": 10196,
+          "fim": 10197
+        },
+        "criar_embed_poketop": {
+          "linha": 10199,
+          "fim": 10242
+        },
+        "criar_embed_poketop_equipe": {
+          "linha": 10244,
+          "fim": 10271
+        },
+        "poketopregistrar": {
+          "linha": 10279,
+          "fim": 10321
+        },
+        "poketop": {
+          "linha": 10325,
+          "fim": 10333
+        },
+        "operacao": {
+          "linha": 10061,
+          "fim": 10068
+        },
+        "send_with_alpha": {
+          "linha": 6254,
+          "fim": 6268
+        },
+        "verificar": {
+          "linha": 6906,
+          "fim": 6918
+        },
+        "andar": {
+          "linha": 8201,
+          "fim": 8212
+        },
+        "encontrar_no_no": {
+          "linha": 8469,
+          "fim": 8476
+        },
+        "buscar": {
+          "linha": 10084,
+          "fim": 10102
+        },
+        "normalizar_nome": {
+          "linha": 6965,
+          "fim": 6988
+        }
+      },
+      "classes": {
+        "BancoPokemon": {
+          "linha": 1060,
+          "fim": 4112
+        },
+        "PokeAPI": {
+          "linha": 4119,
+          "fim": 4217
+        },
+        "AjudaPaginaSelect": {
+          "linha": 4315,
+          "fim": 4341
+        },
+        "AjudaPokemonView": {
+          "linha": 4344,
+          "fim": 4388
+        },
+        "ConquistasPaginaSelect": {
+          "linha": 4391,
+          "fim": 4415
+        },
+        "ConquistasView": {
+          "linha": 4418,
+          "fim": 4434
+        },
+        "PokedexRegiaoSelect": {
+          "linha": 4437,
+          "fim": 4449
+        },
+        "PokedexFaixaSelect": {
+          "linha": 4452,
+          "fim": 4467
+        },
+        "PokedexPokemonSelect": {
+          "linha": 4470,
+          "fim": 4485
+        },
+        "PokedexModoSelect": {
+          "linha": 4488,
+          "fim": 4520
+        },
+        "PokedexVoltarButton": {
+          "linha": 4523,
+          "fim": 4532
+        },
+        "PokedexView": {
+          "linha": 4535,
+          "fim": 4543
+        },
+        "StarterRegiaoSelect": {
+          "linha": 4546,
+          "fim": 4574
+        },
+        "StarterView": {
+          "linha": 4577,
+          "fim": 4649
+        },
+        "PerfilView": {
+          "linha": 4665,
+          "fim": 4761
+        },
+        "PerfilPersonalizarView": {
+          "linha": 4764,
+          "fim": 4895
+        },
+        "PerfilCategoriaSelect": {
+          "linha": 4898,
+          "fim": 4983
+        },
+        "PerfilCategoriaView": {
+          "linha": 4986,
+          "fim": 5024
+        },
+        "PerfilItemView": {
+          "linha": 5027,
+          "fim": 5123
+        },
+        "PokeMartSelect": {
+          "linha": 5126,
+          "fim": 5179
+        },
+        "PokeMartView": {
+          "linha": 5182,
+          "fim": 5420
+        },
+        "InsigniasRegiaoSelect": {
+          "linha": 5423,
+          "fim": 5482
+        },
+        "InsigniasRegiaoView": {
+          "linha": 5485,
+          "fim": 5522
+        },
+        "GinasiosView": {
+          "linha": 5525,
+          "fim": 5620
+        },
+        "GinasioBattleView": {
+          "linha": 5623,
+          "fim": 5725
+        },
+        "TrocaPokemonSelect": {
+          "linha": 5728,
+          "fim": 5779
+        },
+        "TrocaPokemonView": {
+          "linha": 5782,
+          "fim": 5785
+        },
+        "EquipeSelect": {
+          "linha": 5792,
+          "fim": 5841
+        },
+        "EquipeView": {
+          "linha": 5844,
+          "fim": 5893
+        },
+        "PokemonDetalheView": {
+          "linha": 5896,
+          "fim": 5965
+        },
+        "PoketopSelect": {
+          "linha": 6016,
+          "fim": 6053
+        },
+        "PoketopView": {
+          "linha": 6056,
+          "fim": 6113
+        },
+        "PoketopRecompensasView": {
+          "linha": 6116,
+          "fim": 6178
+        },
+        "PoketopEquipeView": {
+          "linha": 6181,
+          "fim": 6205
+        },
+        "Pokemon": {
+          "linha": 6208,
+          "fim": 10333
+        }
+      }
+    }
+  },
+  "ship.py": {
+    "hash": "017994f01329c40ea5ddc4aa32fc862058c4f8f09160d5525568ef8a960f089f",
+    "analise": {
+      "comandos": {
+        "ship": {
+          "nome": "ship",
+          "descricao": "Calcula uma compatibilidade recreativa.",
+          "aliases": [],
+          "funcao": "ship",
+          "linha": 1735,
+          "decorador": "commands.command"
+        },
+        "shipperfil": {
+          "nome": "shipperfil",
+          "descricao": "Mostra as estatísticas de um membro.",
+          "aliases": [],
+          "funcao": "shipperfil",
+          "linha": 1854,
+          "decorador": "commands.command"
+        },
+        "shipconquistas": {
+          "nome": "shipconquistas",
+          "descricao": "Mostra as conquistas de um membro.",
+          "aliases": [
+            "shipachievements"
+          ],
+          "funcao": "shipconquistas",
+          "linha": 1984,
+          "decorador": "commands.command"
+        },
+        "shiptop": {
+          "nome": "shiptop",
+          "descricao": "Mostra os maiores ships.",
+          "aliases": [
+            "shipranking"
+          ],
+          "funcao": "shiptop",
+          "linha": 2015,
+          "decorador": "commands.command"
+        },
+        "shipconquistranking": {
+          "nome": "shipconquistranking",
+          "descricao": "Mostra o ranking de conquistas.",
+          "aliases": [
+            "shipconquistatop",
+            "shiprank"
+          ],
+          "funcao": "shipconquistranking",
+          "linha": 2177,
+          "decorador": "commands.command"
+        },
+        "shipinfo": {
+          "nome": "shipinfo",
+          "descricao": "Mostra as estatísticas gerais.",
+          "aliases": [
+            "shipstats"
+          ],
+          "funcao": "shipinfo",
+          "linha": 2326,
+          "decorador": "commands.command"
+        }
+      },
+      "funcoes": {
+        "dados_padrao": {
+          "linha": 252,
+          "fim": 272
+        },
+        "carregar_dados": {
+          "linha": 279,
+          "fim": 346
+        },
+        "salvar_dados": {
+          "linha": 349,
+          "fim": 392
+        },
+        "chave_dupla": {
+          "linha": 399,
+          "fim": 413
+        },
+        "nome_ship": {
+          "linha": 416,
+          "fim": 467
+        },
+        "barra_compatibilidade": {
+          "linha": 470,
+          "fim": 497
+        },
+        "classificar": {
+          "linha": 504,
+          "fim": 665
+        },
+        "setup": {
+          "linha": 2786,
+          "fim": 2794
+        },
+        "__init__": {
+          "linha": 2467,
+          "fim": 2485
+        },
+        "salvar": {
+          "linha": 691,
+          "fim": 699
+        },
+        "registrar_usuario": {
+          "linha": 705,
+          "fim": 785
+        },
+        "escolher_membro_aleatorio": {
+          "linha": 791,
+          "fim": 815
+        },
+        "verificar_conquistas": {
+          "linha": 821,
+          "fim": 975
+        },
+        "obter_ou_criar_ship": {
+          "linha": 981,
+          "fim": 1180
+        },
+        "refazer_ship": {
+          "linha": 1186,
+          "fim": 1370
+        },
+        "criar_embed_ship": {
+          "linha": 1376,
+          "fim": 1571
+        },
+        "criar_embed_conquistas": {
+          "linha": 1577,
+          "fim": 1656
+        },
+        "anunciar_conquistas": {
+          "linha": 1662,
+          "fim": 1717
+        },
+        "ship": {
+          "linha": 1735,
+          "fim": 1841
+        },
+        "shipperfil": {
+          "linha": 1854,
+          "fim": 1968
+        },
+        "shipconquistas": {
+          "linha": 1984,
+          "fim": 1999
+        },
+        "shiptop": {
+          "linha": 2015,
+          "fim": 2160
+        },
+        "shipconquistranking": {
+          "linha": 2177,
+          "fim": 2310
+        },
+        "shipinfo": {
+          "linha": 2326,
+          "fim": 2456
+        },
+        "interaction_check": {
+          "linha": 2491,
+          "fim": 2510
+        },
+        "novo_ship": {
+          "linha": 2522,
+          "fim": 2628
+        },
+        "refazer": {
+          "linha": 2640,
+          "fim": 2730
+        },
+        "conquistas": {
+          "linha": 2742,
+          "fim": 2755
+        },
+        "fechar": {
+          "linha": 2767,
+          "fim": 2779
+        }
+      },
+      "classes": {
+        "Ship": {
+          "linha": 672,
+          "fim": 2456
+        },
+        "ShipView": {
+          "linha": 2463,
+          "fim": 2779
+        }
+      }
+    }
+  },
+  "sorteios.py": {
+    "hash": "1d919885bb413a37ba13a37ae7ac28b96d9dc755f4e9beea92aa29fdddd1f790",
+    "analise": {
+      "comandos": {
+        "sorteio": {
+          "nome": "sorteio",
+          "descricao": "Sistema completo de sorteios.",
+          "aliases": [],
+          "funcao": "sorteio",
+          "linha": 462,
+          "decorador": "commands.hybrid_group"
+        }
+      },
+      "funcoes": {
+        "carregar_json": {
+          "linha": 35,
+          "fim": 43
+        },
+        "salvar_json": {
+          "linha": 46,
+          "fim": 51
+        },
+        "formatar_dias": {
+          "linha": 54,
+          "fim": 55
+        },
+        "parse_ids": {
+          "linha": 58,
+          "fim": 82
+        },
+        "setup": {
+          "linha": 1333,
+          "fim": 1334
+        },
+        "__init__": {
+          "linha": 215,
+          "fim": 220
+        },
+        "participar": {
+          "linha": 114,
+          "fim": 178
+        },
+        "atualizar": {
+          "linha": 180,
+          "fim": 195
+        },
+        "cog_unload": {
+          "linha": 222,
+          "fim": 223
+        },
+        "on_ready": {
+          "linha": 230,
+          "fim": 248
+        },
+        "salvar_sorteios": {
+          "linha": 254,
+          "fim": 258
+        },
+        "salvar_config": {
+          "linha": 260,
+          "fim": 264
+        },
+        "obter_canal_logs": {
+          "linha": 270,
+          "fim": 284
+        },
+        "enviar_log": {
+          "linha": 286,
+          "fim": 317
+        },
+        "criar_embed": {
+          "linha": 323,
+          "fim": 452
+        },
+        "sorteio": {
+          "linha": 462,
+          "fim": 466
+        },
+        "criar": {
+          "linha": 473,
+          "fim": 641
+        },
+        "encerrar": {
+          "linha": 652,
+          "fim": 666
+        },
+        "reroll": {
+          "linha": 677,
+          "fim": 772
+        },
+        "logcanal": {
+          "linha": 783,
+          "fim": 808
+        },
+        "verlog": {
+          "linha": 819,
+          "fim": 840
+        },
+        "calcular_peso": {
+          "linha": 846,
+          "fim": 870
+        },
+        "escolher_vencedor": {
+          "linha": 872,
+          "fim": 885
+        },
+        "verificar_requisitos": {
+          "linha": 891,
+          "fim": 968
+        },
+        "enviar_dm_requisito": {
+          "linha": 974,
+          "fim": 1008
+        },
+        "enviar_dm_vencedor": {
+          "linha": 1010,
+          "fim": 1070
+        },
+        "atualizar_mensagem": {
+          "linha": 1076,
+          "fim": 1110
+        },
+        "encerrar_sorteio": {
+          "linha": 1116,
+          "fim": 1296
+        },
+        "tarefa_sorteios": {
+          "linha": 1303,
+          "fim": 1322
+        },
+        "antes_tarefa": {
+          "linha": 1325,
+          "fim": 1326
+        }
+      },
+      "classes": {
+        "ParticiparView": {
+          "linha": 89,
+          "fim": 195
+        },
+        "Sorteios": {
+          "linha": 202,
+          "fim": 1326
+        }
+      }
+    }
+  },
+  "tickets.py": {
+    "hash": "e8d36e513bd634cc73cc8d92bd242556fdcb7c40a726d9356d22103214919b62",
+    "analise": {
+      "comandos": {
+        "ticket_comando": {
+          "nome": "ticket",
+          "descricao": "",
+          "aliases": [],
+          "funcao": "ticket_comando",
+          "linha": 3275,
+          "decorador": "commands.command"
+        }
+      },
+      "funcoes": {
+        "configuracao_padrao": {
+          "linha": 69,
+          "fim": 96
+        },
+        "carregar_json": {
+          "linha": 103,
+          "fim": 133
+        },
+        "salvar_json": {
+          "linha": 136,
+          "fim": 160
+        },
+        "limpar_nome": {
+          "linha": 167,
+          "fim": 187
+        },
+        "setup": {
+          "linha": 3422,
+          "fim": 3428
+        },
+        "__init__": {
+          "linha": 2087,
+          "fim": 2104
+        },
+        "abrir_ticket": {
+          "linha": 228,
+          "fim": 239
+        },
+        "callback": {
+          "linha": 1929,
+          "fim": 1979
+        },
+        "verificar_staff": {
+          "linha": 728,
+          "fim": 745
+        },
+        "assumir": {
+          "linha": 751,
+          "fim": 821
+        },
+        "atendido": {
+          "linha": 827,
+          "fim": 883
+        },
+        "arquivar": {
+          "linha": 889,
+          "fim": 957
+        },
+        "reabrir": {
+          "linha": 963,
+          "fim": 1032
+        },
+        "adicionar": {
+          "linha": 1038,
+          "fim": 1055
+        },
+        "remover": {
+          "linha": 1061,
+          "fim": 1078
+        },
+        "finalizar": {
+          "linha": 1084,
+          "fim": 1142
+        },
+        "confirmar": {
+          "linha": 1173,
+          "fim": 1203
+        },
+        "cancelar": {
+          "linha": 1210,
+          "fim": 1222
+        },
+        "interaction_check": {
+          "linha": 1442,
+          "fim": 1457
+        },
+        "painel": {
+          "linha": 1273,
+          "fim": 1324
+        },
+        "configurar": {
+          "linha": 1336,
+          "fim": 1361
+        },
+        "ver_config": {
+          "linha": 1564,
+          "fim": 1575
+        },
+        "fechar": {
+          "linha": 1611,
+          "fim": 1623
+        },
+        "logs": {
+          "linha": 1469,
+          "fim": 1481
+        },
+        "categoria": {
+          "linha": 1493,
+          "fim": 1505
+        },
+        "staff": {
+          "linha": 1517,
+          "fim": 1529
+        },
+        "mensagem": {
+          "linha": 1541,
+          "fim": 1552
+        },
+        "publicar": {
+          "linha": 1587,
+          "fim": 1599
+        },
+        "on_submit": {
+          "linha": 2050,
+          "fim": 2076
+        },
+        "salvar_tickets": {
+          "linha": 2110,
+          "fim": 2117
+        },
+        "salvar_config": {
+          "linha": 2119,
+          "fim": 2126
+        },
+        "obter_config": {
+          "linha": 2132,
+          "fim": 2160
+        },
+        "obter_ticket_por_canal": {
+          "linha": 2166,
+          "fim": 2182
+        },
+        "usuario_equipe": {
+          "linha": 2188,
+          "fim": 2217
+        },
+        "obter_canal_logs": {
+          "linha": 2223,
+          "fim": 2242
+        },
+        "enviar_log": {
+          "linha": 2244,
+          "fim": 2291
+        },
+        "criar_embed_config": {
+          "linha": 2297,
+          "fim": 2425
+        },
+        "criar_embed_ticket": {
+          "linha": 2431,
+          "fim": 2530
+        },
+        "on_ready": {
+          "linha": 2537,
+          "fim": 2592
+        },
+        "publicar_painel": {
+          "linha": 2598,
+          "fim": 2675
+        },
+        "criar_ticket": {
+          "linha": 2681,
+          "fim": 3001
+        },
+        "atualizar_embed_ticket": {
+          "linha": 3007,
+          "fim": 3052
+        },
+        "fechar_ticket": {
+          "linha": 3058,
+          "fim": 3266
+        },
+        "ticket_comando": {
+          "linha": 3275,
+          "fim": 3415
+        }
+      },
+      "classes": {
+        "PainelTicketView": {
+          "linha": 194,
+          "fim": 239
+        },
+        "CategoriaTicketView": {
+          "linha": 246,
+          "fim": 263
+        },
+        "CategoriaSelect": {
+          "linha": 266,
+          "fim": 330
+        },
+        "AdicionarMembroView": {
+          "linha": 337,
+          "fim": 356
+        },
+        "AdicionarMembroSelect": {
+          "linha": 359,
+          "fim": 432
+        },
+        "RemoverMembroView": {
+          "linha": 439,
+          "fim": 458
+        },
+        "RemoverMembroSelect": {
+          "linha": 461,
+          "fim": 550
+        },
+        "TicketView": {
+          "linha": 557,
+          "fim": 1142
+        },
+        "ConfirmarFechamentoView": {
+          "linha": 1149,
+          "fim": 1222
+        },
+        "MenuPrincipalTicketView": {
+          "linha": 1229,
+          "fim": 1418
+        },
+        "ConfigTicketView": {
+          "linha": 1425,
+          "fim": 1623
+        },
+        "ConfigLogsView": {
+          "linha": 1630,
+          "fim": 1647
+        },
+        "ConfigLogsSelect": {
+          "linha": 1650,
+          "fim": 1715
+        },
+        "ConfigCategoriaView": {
+          "linha": 1722,
+          "fim": 1739
+        },
+        "ConfigCategoriaSelect": {
+          "linha": 1742,
+          "fim": 1808
+        },
+        "ConfigStaffView": {
+          "linha": 1815,
+          "fim": 1832
+        },
+        "ConfigStaffSelect": {
+          "linha": 1835,
+          "fim": 1882
+        },
+        "PublicarPainelView": {
+          "linha": 1889,
+          "fim": 1906
+        },
+        "PublicarPainelSelect": {
+          "linha": 1909,
+          "fim": 1979
+        },
+        "PainelModal": {
+          "linha": 1986,
+          "fim": 2076
+        },
+        "Tickets": {
+          "linha": 2083,
+          "fim": 3415
+        }
+      }
+    }
+  }
+}

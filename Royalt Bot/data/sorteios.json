@@ -1,0 +1,114 @@
+{
+    "514272": {
+        "id": "514272",
+        "guild": 1527325770337353932,
+        "canal": 1527325771650171027,
+        "mensagem": 1543433127861559327,
+        "criador": 1527022875444379751,
+        "premio": "Teste",
+        "descricao": "teste",
+        "vencedores": 1,
+        "participantes": [
+            1527022875444379751
+        ],
+        "vencedores_ids": [
+            1527022875444379751
+        ],
+        "inicio": 1788053540.954233,
+        "fim": 1788053840.954233,
+        "encerrado": true
+    },
+    "116412": {
+        "id": "116412",
+        "guild": 1527325770337353932,
+        "canal": 1527325771650171027,
+        "mensagem": 1543438953955332258,
+        "criador": 1527022875444379751,
+        "premio": "23",
+        "descricao": "2",
+        "vencedores": 1,
+        "participantes": [],
+        "vencedores_ids": [],
+        "inicio": 1788054930.086308,
+        "fim": 1788055170.086308,
+        "encerrado": true
+    },
+    "677721": {
+        "id": "677721",
+        "guild": 1527325770337353932,
+        "canal": 1527325771650171027,
+        "mensagem": 1543439142694686720,
+        "criador": 1527022875444379751,
+        "premio": "2",
+        "descricao": "3",
+        "vencedores": 1,
+        "participantes": [
+            1527022875444379751
+        ],
+        "vencedores_ids": [
+            1527022875444379751
+        ],
+        "inicio": 1788054975.026069,
+        "fim": 1788055095.026069,
+        "encerrado": true
+    },
+    "180793": {
+        "id": "180793",
+        "guild": 1527325770337353932,
+        "canal": 1527325771650171027,
+        "mensagem": 1543441288916107405,
+        "criador": 1527022875444379751,
+        "premio": "1",
+        "descricao": "2",
+        "vencedores": 1,
+        "participantes": [
+            1527022875444379751
+        ],
+        "vencedores_ids": [],
+        "inicio": 1788055486.803297,
+        "fim": 1788055546.803297,
+        "encerrado": true,
+        "bonus_cargos": {
+            "1527325770408792076": {
+                "percentual": 5.0,
+                "entradas": 2
+            }
+        },
+        "requisitos": {
+            "cargos": [],
+            "idade_conta_dias": 980,
+            "idade_servidor_dias": 145
+        }
+    },
+    "961974": {
+        "id": "961974",
+        "guild": 1527325770337353932,
+        "canal": 1527325772120068177,
+        "mensagem": 1544087022669402195,
+        "criador": 1481433169176563896,
+        "premio": "cargo",
+        "descricao": "jehwjjehjee",
+        "vencedores": 1,
+        "participantes": [
+            1481433169176563896,
+            1527022875444379751
+        ],
+        "vencedores_ids": [],
+        "inicio": 1788209445.658453,
+        "fim": 1788210645.658453,
+        "encerrado": true,
+        "bonus_cargos": {
+            "1527325770408792075": {
+                "percentual": 67.0,
+                "entradas": 67
+            }
+        },
+        "requisitos": {
+            "cargos": [
+                1527022875444379751
+            ],
+            "idade_conta_dias": 23,
+            "idade_servidor_dias": 1
+        }
+    }
+}

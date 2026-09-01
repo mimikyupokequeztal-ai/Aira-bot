@@ -1,0 +1,17 @@
+{
+    "guilds": {
+        "1527325770337353932": {
+            "ativo": true,
+            "protecao": 1,
+            "log_channel_id": 1527325772564402322,
+            "kick_bots_suspeitos": true,
+            "mencionar_critico": true,
+            "canal_logs": 1527325772564402322,
+            "roles": [],
+            "users": [],
+            "bots_protection": true,
+            "mass_join_protection": true,
+            "automatic_actions": true
+        }
+    }
+}

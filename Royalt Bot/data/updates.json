@@ -1,0 +1,33 @@
+[
+    {
+        "data": "2026-08-30T01:11:44.168855+00:00",
+        "alteracoes": [
+            {
+                "tipo": "arquivo_modificado",
+                "arquivo": "cogs/help.py",
+                "descricao": "Arquivo atualizado: `cogs/help.py`"
+            },
+            {
+                "tipo": "comando_removido",
+                "arquivo": "cogs/help.py",
+                "comando": "ping",
+                "descricao": "Comando removido: `!ping` de `cogs/help.py`"
+            }
+        ]
+    },
+    {
+        "data": "2026-08-30T01:21:07.782577+00:00",
+        "alteracoes": [
+            {
+                "tipo": "arquivo_novo",
+                "arquivo": "cogs/sorteios.py",
+                "descricao": "Novo arquivo criado: `cogs/sorteios.py`"
+            },
+            {
+                "tipo": "arquivo_modificado",
+                "arquivo": "main.py",
+                "descricao": "Arquivo atualizado: `main.py`"
+            }
+        ]
+    }
+]
